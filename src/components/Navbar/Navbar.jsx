@@ -1,24 +1,43 @@
 import './Navbar.scss'
-import logo from '../../assets/react.svg'
-import CartWidget from '../CartWidget/CartWidget'
+import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from '../../assets/aprender-en-linea.png';
+import CartWidget from '../CartWidget/CartWidget';
 
-const Navbar = () => {
-
-    return (
-        <header className="header">
-            <div className="header__container">
-                {/* <img src={'./public/react.svg'} alt='LOGO'/> */}
-                <img src={logo} alt='LOGO'/>
-
-                <nav className="navbar">
-                    <a href='#' className="navbar__link">Categorías</a>
-                    <a href='#' className="navbar__link">Buscador</a>
-                    <a href='#' className="navbar__link">Iniciar sesión</a>
-                </nav>
-                <CartWidget />
-            </div>
-        </header>
-    )
+function CollapsibleExample() {
+  return (
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Container>
+            <Navbar.Brand href="#home">
+            <img className="logo" src={logo} alt='LOGO'/>
+                E-ducación
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+                <NavDropdown title="Categorías" id="collasible-nav-dropdown">
+                    <NavDropdown.Item href="#programacion">Programación</NavDropdown.Item>
+                    <NavDropdown.Item href="#finanzas">Finanzas</NavDropdown.Item>
+                    <NavDropdown.Item href="#matematicas">Matemáticas</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#favoritos">Favoritos</NavDropdown.Item>
+                    </NavDropdown>
+                    <Nav.Link href="#contacto">Contacto</Nav.Link>
+                
+            </Nav>
+            <Nav>
+                <Nav.Link href="#iniciarSesion">Iniciar sesión</Nav.Link>
+            </Nav>
+            <Nav>
+                <Nav.Link eventKey={2} href="#carrito"><CartWidget/></Nav.Link>
+            </Nav>
+            </Navbar.Collapse>
+        </Container>
+    </Navbar>
+  );
 }
 
-export default Navbar
+export default CollapsibleExample;

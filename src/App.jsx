@@ -1,16 +1,14 @@
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "./components/NavBar/NavBar";
+import  CollapsibleExample from './components/Navbar/Navbar.jsx'
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
 
 function App() {
 
   return (
-    <div>
-      <Navbar/>
-     
-      <ItemListContainer saludo={"Hola mundo!"}/>
-
+    <div style={{ backgroundColor: "#dddddd"}}>
+      <CollapsibleExample></CollapsibleExample>
+      <ItemListContainer greeting={"Bienvenido alumno!"}/>
     </div>
   );
 }
