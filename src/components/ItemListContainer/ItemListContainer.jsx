@@ -1,4 +1,3 @@
-import './ItemListContainer.scss'
 
 export const ItemListContainer = ( {greeting} ) => {
 

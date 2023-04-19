@@ -8,7 +8,7 @@ function App() {
   return (
     <div style={{ backgroundColor: "#dddddd"}}>
       <CollapsibleExample></CollapsibleExample>
-      <ItemListContainer greeting={"Bienvenido alumno!"}/>
+      <ItemListContainer greeting={"¡Bienvenido, usuario!"}/>
     </div>
   );
 }
