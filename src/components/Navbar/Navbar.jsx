@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../../assets/aprender-en-linea.png';
 import CartWidget from '../CartWidget/CartWidget';
+import { Link } from 'react-router-dom';
 
 function CollapsibleExample() {
   return (
@@ -19,7 +20,7 @@ function CollapsibleExample() {
             <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
                 <NavDropdown title="Categorías" id="collasible-nav-dropdown">
-                    <NavDropdown.Item href="#programacion">Programación</NavDropdown.Item>
+                <Link to='/category/programacion' className="navbar__link"><NavDropdown.Item href="#programacion">Programación</NavDropdown.Item></Link>
                     <NavDropdown.Item href="#marketing-digital">Marketing digital</NavDropdown.Item>
                     <NavDropdown.Item href="#diseño-digital">Diseño digital</NavDropdown.Item>
                     <NavDropdown.Item href="#idiomas">Idiomas</NavDropdown.Item>
@@ -54,9 +55,8 @@ const CollapsibleExample = () => {
     return (
         <header className="header">
             <div className="header__container">
-            <div className='empresa'>
-            <img className="logo" src={logo} alt='LOGO'/>
-            E-ducación
+            <div className='nosotros'>
+            <Link to='/' className="brand"><img className="logo" src={logo} alt='LOGO'/>E-ducacion</Link>
             </div>
                 <nav className="navbar">
                     <Link to='/' className="navbar__link">Inicio  |</Link>
@@ -64,7 +64,7 @@ const CollapsibleExample = () => {
                     <Link to='/category/marketing' className="navbar__link">Marketing</Link>
                     <Link to='/category/diseno' className="navbar__link">Diseño</Link>
                     <Link to='/category/idiomas' className="navbar__link">Idiomas</Link>
-                    <Link to='/category/hrramientas' className="navbar__link">Herramientas</Link>
+                    <Link to='/category/herramientas' className="navbar__link">Herramientas</Link>
                 </nav>
                 <CartWidget />
             </div>

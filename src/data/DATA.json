@@ -1,7 +1,7 @@
 [{
     "id": 1,
-    "nombre": "Desarrollo web frontend con HTML, CSS y JS.",
-    "descripcion": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+    "nombre": "Desarrollo web frontend con HTML, CSS y JavaScript",
+    "descripcion": "Aprende los fundamentos del desarrollo web frontend utilizando HTML, CSS y JavaScript. Crea interfaces atractivas y funcionales, domina la maquetación responsiva y agrega interactividad a tus sitios web.",
     "precio": 877,
     "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
     "stock": 12,
@@ -9,7 +9,7 @@
   }, {
     "id": 2,
     "nombre": "Desarrollo web backend con Node.js",
-    "descripcion": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "descripcion": "Sumérgete en el desarrollo del lado del servidor con Node.js. Aprende a crear APIs robustas, gestionar bases de datos, implementar autenticación y construir aplicaciones web escalables y de alto rendimiento.",
     "precio": 5838,
     "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
     "stock": 46,
@@ -17,7 +17,7 @@
   }, {
     "id": 3,
     "nombre": "Programación orientada a objetos con Java",
-    "descripcion": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+    "descripcion": "Descubre los principios y conceptos de la programación orientada a objetos utilizando Java. Aprende a diseñar y construir aplicaciones utilizando clases, objetos, herencia, polimorfismo y encapsulamiento, desarrollando soluciones eficientes y reutilizables.",
     "precio": 933,
     "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
     "stock": 9,
@@ -25,7 +25,7 @@
   }, {
     "id": 4,
     "nombre": "Desarrollo de aplicacion móviles con React Native",
-    "descripcion": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+    "descripcion": "Adéntrate en el desarrollo de aplicaciones móviles multiplataforma utilizando React Native. Crea aplicaciones nativas para iOS y Android utilizando JavaScript, compartiendo código y maximizando la eficiencia de desarrollo en ambos sistemas operativos.",
     "precio": 13014,
     "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
     "stock": 2,

@@ -16,7 +16,14 @@ $accent-color: #fbac04;
     align-items: center;
     background-color: $bgNavbar-color;
 
-    .empresa {
+    .nosotros {
+      background-color: $bgNavbar-color;
+    }
+
+    .brand {
+      margin-right: 25px;
+      color: #fff;
+      text-decoration: none;
       background-color: $bgNavbar-color;
     }
 
