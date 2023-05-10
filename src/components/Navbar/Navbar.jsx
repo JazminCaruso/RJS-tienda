@@ -1,4 +1,4 @@
-import './Navbar.scss'
+/*import './Navbar.scss'
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -19,14 +19,11 @@ function CollapsibleExample() {
             <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
                 <NavDropdown title="Categorías" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#herramientas-office">Herramientas de Office</NavDropdown.Item>
-                    <NavDropdown.Item href="#nuevas-tecnologias">Nuevas tecnologías</NavDropdown.Item>
-                    <NavDropdown.Item href="#marketing-digital">Marketing Digital</NavDropdown.Item>
-                    <NavDropdown.Item href="#inversiones-finanzas">Inversiones y finanzas</NavDropdown.Item>
-                    <NavDropdown.Item href="#administracin-contable">Administración contable</NavDropdown.Item>
-                    <NavDropdown.Item href="#blockchain">Blockchain</NavDropdown.Item>
-                    <NavDropdown.Item href="#logistica">Logística</NavDropdown.Item>
+                    <NavDropdown.Item href="#programacion">Programación</NavDropdown.Item>
+                    <NavDropdown.Item href="#marketing-digital">Marketing digital</NavDropdown.Item>
+                    <NavDropdown.Item href="#diseño-digital">Diseño digital</NavDropdown.Item>
                     <NavDropdown.Item href="#idiomas">Idiomas</NavDropdown.Item>
+                    <NavDropdown.Item href="#herramientas">Herramientas</NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="#favoritos">Favoritos</NavDropdown.Item>
                     </NavDropdown>
@@ -43,6 +40,36 @@ function CollapsibleExample() {
         </Container>
     </Navbar>
   );
+}
+
+export default CollapsibleExample;*/
+
+import './Navbar.scss'
+import logo from '../../assets/aprender-en-linea.png';
+import CartWidget from '../CartWidget/CartWidget'
+import { Link } from 'react-router-dom';
+
+const CollapsibleExample = () => {
+
+    return (
+        <header className="header">
+            <div className="header__container">
+            <div className='empresa'>
+            <img className="logo" src={logo} alt='LOGO'/>
+            E-ducación
+            </div>
+                <nav className="navbar">
+                    <Link to='/' className="navbar__link">Inicio  |</Link>
+                    <Link to='/category/programacion' className="navbar__link">Programación</Link>
+                    <Link to='/category/marketing' className="navbar__link">Marketing</Link>
+                    <Link to='/category/diseno' className="navbar__link">Diseño</Link>
+                    <Link to='/category/idiomas' className="navbar__link">Idiomas</Link>
+                    <Link to='/category/hrramientas' className="navbar__link">Herramientas</Link>
+                </nav>
+                <CartWidget />
+            </div>
+        </header>
+    )
 }
 
 export default CollapsibleExample;

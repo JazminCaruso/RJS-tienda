@@ -4,9 +4,9 @@ import carrito from '../../assets/carro-de-la-compra.jpg';
 const CartWidget = () => {
 
     return (
-        <div>
+        <div className='cartWidget'>
             <img className="carrito" src={carrito} alt='CARRITO'/>
-            <span>      0</span>
+            <span className="span">      0</span>
         </div>
     )
 }

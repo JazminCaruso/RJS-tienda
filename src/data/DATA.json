@@ -1,0 +1,113 @@
+[{
+    "id": 1,
+    "nombre": "Desarrollo web frontend con HTML, CSS y JS.",
+    "descripcion": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.\n\nNullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+    "precio": 877,
+    "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+    "stock": 12,
+    "category": "programacion"
+  }, {
+    "id": 2,
+    "nombre": "Desarrollo web backend con Node.js",
+    "descripcion": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "precio": 5838,
+    "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+    "stock": 46,
+    "category": "programacion"
+  }, {
+    "id": 3,
+    "nombre": "Programación orientada a objetos con Java",
+    "descripcion": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+    "precio": 933,
+    "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+    "stock": 9,
+    "category": "programacion"
+  }, {
+    "id": 4,
+    "nombre": "Desarrollo de aplicacion móviles con React Native",
+    "descripcion": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+    "precio": 13014,
+    "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+    "stock": 2,
+    "category": "programacion"
+  }, {
+    "id": 5,
+    "nombre": "Desarrollo de videojuegos con Unity",
+    "descripcion": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "precio": 11050,
+    "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+    "stock": 10,
+    "category": "programacion"
+  }, {
+    "id": 6,
+    "nombre": "Ciberseguridad para desarrolladores",
+    "descripcion": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+    "precio": 5403,
+    "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+    "stock": 18,
+    "category": "programacion"
+    }, {
+    "id": 7,
+    "nombre": "Aprendizaje automático con Python",
+    "descripcion": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+    "precio": 5403,
+    "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+    "stock": 18,
+    "category": "programacion"
+    }, {
+    "id": 8,
+    "nombre": "Inteligencia artificial",
+    "descripcion": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+    "precio": 5403,
+    "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+    "stock": 18,
+    "category": "programacion"
+    }, {
+    "id": 9,
+    "nombre": "Estrategias en redes sociales",
+    "descripcion": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.\n\nInteger tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+    "precio": 4810,
+    "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+    "stock": 25,
+    "category": "marketing"
+    }, {
+    "id": 10,
+    "nombre": "Publicidad en linea",
+    "descripcion": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "precio": 1022,
+    "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+    "stock": 22,
+    "category": "marketing"
+    }, {
+    "id": 11,
+    "nombre": "Email marketing",
+    "descripcion": "In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+    "precio": 11490,
+    "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+    "stock": 41,
+    "category": "marketing"
+    }, {
+    "id": 12,
+    "nombre": "Posicionamiento en motores de búsqueda",
+    "descripcion": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+    "precio": 3099,
+    "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+    "stock": 27,
+    "category": "marketing"
+    }, {
+    "id": 13,
+    "nombre": "Publicidad en buscadores",
+    "descripcion": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.\n\nQuisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+    "precio": 14681,
+    "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+    "stock": 21,
+    "category": "marketing"
+    }, {
+    "id": 14,
+    "nombre": "Branding",
+    "descripcion": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.\n\nMaecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "precio": 14778,
+    "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+    "stock": 16,
+    "category": "marketing"
+}]

@@ -1,8 +1,17 @@
+$bgNavbar-color: #1d2d2d;
+
+.cartWidget {
+    background-color: $bgNavbar-color;
+}
+
 .carrito {
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 45px;
+    max-height: 45px;
     height: auto;
     width: auto;
-    background-color: antiquewhite;
-    border-radius:20px;
+    border-radius:50px;
+}
+
+.span {
+    background-color: $bgNavbar-color;
 }
