@@ -62,7 +62,7 @@ const CollapsibleExample = () => {
                     <Link to='/' className="navbar__link">Inicio  |</Link>
                     <Link to='/category/programacion' className="navbar__link">Programación</Link>
                     <Link to='/category/marketing' className="navbar__link">Marketing</Link>
-                    <Link to='/category/diseno' className="navbar__link">Diseño</Link>
+                    <Link to='/category/diseño' className="navbar__link">Diseño</Link>
                     <Link to='/category/idiomas' className="navbar__link">Idiomas</Link>
                     <Link to='/category/herramientas' className="navbar__link">Herramientas</Link>
                 </nav>
