@@ -31,7 +31,7 @@
     "nombre": "Programación orientada a objetos en Java",
     "descripcion": "Aprende los principios de la programación orientada a objetos utilizando el lenguaje Java. Adquiere conocimientos sobre clases, objetos, herencia y polimorfismo.",
     "resumen":"Este curso te guiará en el mundo de la programación orientada a objetos con Java. Aprenderás a diseñar y construir programas utilizando clases, objetos, herencia, polimorfismo y otros conceptos fundamentales de la POO.",
-    "precio": 2000,
+    "precio": 20000,
     "img": "/objetos.jpeg",
     "cupos": 9,
     "category": "programacion",

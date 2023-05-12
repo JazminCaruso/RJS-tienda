@@ -4,7 +4,6 @@ import { useState } from 'react'
 import { pedirDatos } from '../../helpers/pedirDatos'
 import ItemList from '../ItemList/ItemList'
 import Spinner from '../spinner/Spinner'
-import Error404 from '../../helpers/error'
 import { useNavigate, useParams } from 'react-router-dom'
 
 export const ItemListContainer = () => {
