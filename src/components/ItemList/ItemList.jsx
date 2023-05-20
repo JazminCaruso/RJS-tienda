@@ -24,10 +24,11 @@ import Search from '../Search/Search';
 
 const ItemList = ({ items }) => {
   return (
-    <div className="list">
+    <div>
       <h2>Cursos</h2>
-      <Search></Search>
-      <hr />
+      <div className='buscador'>
+        <Search></Search>
+      </div>
       <div className="container">
         <Row className="row">
           {items.map((prod) => (

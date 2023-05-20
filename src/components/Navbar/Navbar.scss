@@ -131,11 +131,9 @@ $accent-color: #fbac04;
     background-color: $bgNavbar-color;
   }
 
-  .navbar-brand,
-  .nav-link,
-  .nav-item,
-  .nav-dropdown-item {
-    color: #fff; // Color de texto para brand, enlaces y elementos de dropdown
+ 
+  .nav-link {
+    color: #fff;
   }
 
   .dropdown-menu {

@@ -25,7 +25,7 @@ function CollapsibleExample() {
                     <Link to='/categoria/idiomas' className="navbar__link"><NavDropdown.Item href="#idiomas">Idiomas</NavDropdown.Item></Link>
                     <Link to='/categoria/herramientas' className="navbar__link"><NavDropdown.Item href="#herramientas">Herramientas</NavDropdown.Item></Link>
                     </NavDropdown>
-                    <Nav.Link href="#contacto">Contacto</Nav.Link>
+                    <Nav.Link className="itemNavbar" href="#contacto">Contacto</Nav.Link>
             </Nav>
             <Nav>
                 <Nav.Link className="itemNavbar" href="#iniciarSesion">Iniciar sesión</Nav.Link>
