@@ -1,4 +1,4 @@
-import './ItemList.scss'
+/*import './ItemList.scss'
 import ItemCard from "../ItemCard/ItemCard";
 
 const ItemList = ({items}) => {
@@ -15,26 +15,36 @@ const ItemList = ({items}) => {
     )
 }
 
-export default ItemList
+export default ItemList*/
 
-/*
+import './ItemList.scss';
+import Item from '../Item/Item';
+import Row from 'react-bootstrap/Row';
+import Search from '../Search/Search';
 
-import KitchenSinkExample from '../Card/card';
-
-const ItemList = ({items}) => {
-    return (
-        <div className="list">
-            <h2>Cursos</h2>
-            <hr/>
-            <div className="row">
-                {
-                    items.map((prod) => <KitchenSinkExample item={prod} key={prod.id}/>)
-                }
+const ItemList = ({ items }) => {
+  return (
+    <div className="list">
+      <h2>Cursos</h2>
+      <Search></Search>
+      <hr />
+      <div className="container">
+        <Row className="row">
+          {items.map((prod) => (
+            <div className="col-lg-3 col-md-6 cards" key={prod.id}>
+              <Item item={prod} />
             </div>
-        </div>
-    )
-}
+          ))}
+        </Row>
+      </div>
+    </div>
+  );
+};
 
-export default ItemList
+export default ItemList;
 
-*/ 
+
+
+
+
+

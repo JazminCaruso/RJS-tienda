@@ -5,7 +5,6 @@ import { ItemListContainer } from "./components/ItemListContainer/ItemListContai
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Error404 from "./helpers/error";
-import KitchenSinkExample from "./components/Card/card";
 
 function App() {
 
@@ -14,7 +13,7 @@ function App() {
       <CollapsibleExample></CollapsibleExample>
       <Routes>
         <Route path='/' element= { <ItemListContainer/> } />
-        <Route path='/category/:categoryId' element= { <ItemListContainer/> } />
+        <Route path='/categoria/:categoriaId' element= { <ItemListContainer/> } />
         <Route path='/item/:id' element={ <ItemDetailContainer />} />
         <Route path='*' element= { <Error404/> } />
       </Routes>

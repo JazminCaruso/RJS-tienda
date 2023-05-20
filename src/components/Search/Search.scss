@@ -1,0 +1,28 @@
+.form-control {
+    max-width: 450px;
+    border: none;
+    line-height: 1.8;
+}
+
+.form-control:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.btn {
+    color: #fff;
+    background-color:#1d2d2d;
+    border:none;
+
+    &:hover {
+        color: #fff;
+        background-color:#e29b04;
+        border:none;
+    }
+
+    &:active {
+        color: #fff;
+        background-color:#e29b04;
+        border:none;
+    }
+}

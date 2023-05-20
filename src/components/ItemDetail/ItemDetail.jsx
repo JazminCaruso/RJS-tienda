@@ -16,7 +16,7 @@ const ItemDetail = ({item}) => {
                 <li className='tema'>{item.tema4}</li>
                 <li className='tema'>{item.tema5}</li>
             </ul>
-            <p className='category'>Categoria: {item.category}</p>
+            <p className='categoria'>Categoria: {item.categoria}</p>
             <p className='cupos'>Cupos: {item.cupos}</p>
             <p className='price'>Precio: ${item.precio}</p>
             <button className="btn">Agregar al carrito</button>
