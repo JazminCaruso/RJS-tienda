@@ -6,9 +6,13 @@ const ItemDetail = ({item}) => {
     return (
         <div className="item-detail">
             <div className='titulo'>
-            <h2>Curso: {item.nombre}</h2>
+            <h2 className='titulo-curso'>{item.nombre}</h2>
             </div>
-            <img src={item.img} alt={item.nombre}/>
+            <div className='imagenes'>
+                <img src={item.img} alt={item.nombre}/>
+                <img src={item.img} alt={item.nombre}/>
+                <img src={item.img} alt={item.nombre}/>
+            </div>
             <Detail item={item}></Detail>
             <button className="btn">Agregar al carrito</button>
         </div>
