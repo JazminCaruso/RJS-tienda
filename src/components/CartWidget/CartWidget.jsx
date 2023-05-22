@@ -1,13 +1,17 @@
+import { BsCart2 } from 'react-icons/bs';
 import './CartWidget.scss'
-import carrito from '../../assets/carro-de-la-compra.jpg';
+import { Link } from 'react-router-dom'
+import { useContext } from 'react'
+import { CartContext } from '../../context/CartContext'
 
 const CartWidget = () => {
+    const { cart, totalCantidad } = useContext(CartContext)
 
     return (
-        <div className='cartWidget'>
-            <img className="carrito" src={carrito} alt='CARRITO'/>
-            <span className="span">      0</span>
-        </div>
+        <Link to="/carrito" className={`cart-widget ${cart.length > 0 ? 'cart-widget-active' : ''}`}>
+            <BsCart2/>
+            <span> {totalCantidad()}</span>
+        </Link>
     )
 }
 

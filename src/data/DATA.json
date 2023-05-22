@@ -351,8 +351,8 @@
   }, {
     "id": 26,
     "nombre": "Microsoft Office",
-    "descripcion": "Aprende a utilizar las aplicaciones de Microsoft Office, como Word, Excel y PowerPoint, para mejorar tu productividad y comunicación en el entorno laboral.",
-    "resumen":"En este curso de Microsoft Office, explorarás las principales herramientas y funciones de Word, Excel y PowerPoint. Aprenderás a crear y editar documentos de texto, realizar cálculos y análisis de datos, y diseñar presentaciones impactantes.",
+    "descripcion": "Aprende a utilizar las aplicaciones de Microsoft Office, como Excel, Word y PowerPoint, para mejorar tu productividad y comunicación en el entorno laboral.",
+    "resumen":"En este curso de Microsoft Office, explorarás las principales herramientas y funciones de Excel, Word y PowerPoint. Aprenderás a crear y editar documentos de texto, realizar cálculos y análisis de datos, y diseñar presentaciones impactantes.",
     "precio":10000,
     "img":"/office.jpeg",
     "cupos":20,

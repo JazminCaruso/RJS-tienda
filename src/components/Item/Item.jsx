@@ -15,7 +15,6 @@ function Item({item}) {
           </Card.Body>
           <ListGroup className="list-group-flush bg">
               <ListGroup.Item className='bg'>Precio: ${item.precio}</ListGroup.Item>
-              <ListGroup.Item className='bg'>Cupos: {item.cupos}</ListGroup.Item>
           </ListGroup>
           <Card.Body className='bg'>
               <Link to={`/item/${item.id}`}><Button className='btn'>Ver más</Button></Link>

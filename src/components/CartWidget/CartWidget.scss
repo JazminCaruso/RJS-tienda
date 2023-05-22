@@ -1,17 +1,32 @@
 $bgNavbar-color: #1d2d2d;
+$accent-color: #e29b04;
 
-.cartWidget {
+.cart-widget {
+    font-size:x-large;
+    color: white;
+    cursor: pointer;
     background-color: $bgNavbar-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $accent-color;
+    }
+
+    svg {
+        background-color: $bgNavbar-color;
+    }
+
+    span {
+        background-color: $bgNavbar-color;
+        font-size: large;
+    }
 }
 
-.carrito {
-    max-width: 45px;
-    max-height: 45px;
-    height: auto;
-    width: auto;
-    border-radius:50px;
-}
-
-.span {
+.cart-widget-active {
+    visibility: visible;
     background-color: $bgNavbar-color;
+
+    &:hover {
+        color: white;
+    }
 }
