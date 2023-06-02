@@ -2,10 +2,9 @@ $bg-color: #d4f4f4;
 $dark-color: #1d2d2d;
 $accent-color: #e29b04;
 
-.detalles {
+.seleccion {
     display: flex;
     flex-direction: column;
-    width: 100%;
     background-color: $bg-color;
 }
 
@@ -32,4 +31,54 @@ $accent-color: #e29b04;
 .bold-word {
     font-weight: bold;
     background-color: $bg-color;
+  }
+
+.date-button {
+    background-color: #fff;
+    color: $dark-color;
+    width: 100%;
+    margin-top: 1%;
+    border-radius: 5px;
+}
+
+.date-button.selected {
+  background-color: $accent-color;
+  color: #ffffff;
+}
+
+.time-button {
+    background-color: #fff;
+    color: $dark-color;
+    width: 100%;
+    margin-top: 1%;
+    border-radius: 5px;
+}
+
+.time-button.selected {
+    background-color: $accent-color;
+    color: #ffffff;
+  }
+
+  .botones {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boton {
+    padding: 8px 16px;
+    background-color: $dark-color;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    max-width:100%;
+    font-size: large;
+    font-weight:500;
+    margin: 0 10px;
+    text-align: center;
+
+    &:hover {
+      background-color: $accent-color;
+      color:white;
+    }
   }

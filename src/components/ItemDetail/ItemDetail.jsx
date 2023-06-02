@@ -1,19 +1,9 @@
 import "./ItemDetail.scss";
-import { useContext, useState } from "react";
 import Detail from "../Detail/Detail";
-import { Link } from "react-router-dom";
-import { CartContext } from "../../context/CartContext";
+import Topics from "../Topics/Topics";
+import Description from "../Description/Description";
 
 const ItemDetail = ({ item }) => {
-  const { aggCarrito, inCart } = useContext(CartContext);
-
-  const agregarAlCarrito = () => {
-    const nuevoItem = {
-      ...item,
-      cantidad: 1,
-    };
-    aggCarrito(nuevoItem);
-  };
 
   return (
     <div className="item-detail">
@@ -25,16 +15,11 @@ const ItemDetail = ({ item }) => {
         <img src={item.img} alt={item.nombre} />
         <img src={item.img} alt={item.nombre} />
       </div>
+      <div className="detalles">
+        <Description item={item} />
+        <Topics item={item} />
+      </div>
       <Detail item={item} />
-      <br />
-      {
-            inCart(item.id)
-                ? <Link className="btn" to="/carrito">Ver carrito</Link>
-                : <button className="btn" onClick={agregarAlCarrito}>
-                    Agregar al carrito
-                </button>
-        }
-
     </div>
   );
 };

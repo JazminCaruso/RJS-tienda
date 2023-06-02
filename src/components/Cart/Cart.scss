@@ -3,38 +3,58 @@ $dark-color: #1d2d2d;
 $accent-color: #e29b04;
 
 .item-carrito {
-    margin-bottom: 2%;
-}
-
-.titulo-curso {
-    margin-right: 2%;
-}
-
-.trash {
-    cursor: pointer;
-    font-size: large;
-}
-
-.boton {
-    background-color: #fff;
-    color: $dark-color;
-    border: 2px solid $dark-color;
-    margin-left: 2px;
-    margin-right: 2px;
-
-    &:hover {
-        color: #fff;
-        background-color: $dark-color; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    
+    .titulo-curso {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .info-container {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 10px;
+        
+        .details-container {
+            flex: 1;
+            
+            p {
+                margin-bottom: 5px;
+            }
+      }
+      
+      .img-container {
+          margin-left: 20px;
+        }
+        
+        .img-item {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+    }
+    
+    .parrafo {
+        font-size: large;
+        margin-top: 1%;
+    }
+    
+    .bold-word {
+        font-weight: bold;
     }
 }
+.trash {
+    cursor: pointer;
+        font-size: 20px;
+        color: red;
+        align-self: flex-end;
+    }
 
-.parrafo {
-    font-size: large;
-    margin-top: 1%;
-}
-
-.bold-word {
-    font-weight: bold;
+    .btn {
+        margin-top: 10px;
+    }
 }
 
 .botones {

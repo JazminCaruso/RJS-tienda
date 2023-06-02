@@ -11,13 +11,13 @@ function Item({item}) {
           <Card.Img variant="top" src={item.img} />
           <Card.Body className='bg'>
               <Card.Title className='bg titulo'>{item.nombre}</Card.Title>
-              <Card.Text className='bg descripcion'>{item.descripcion}</Card.Text>
+              <Card.Text className='bg descripcion'>{item.resumen}</Card.Text>
           </Card.Body>
           <ListGroup className="list-group-flush bg">
               <ListGroup.Item className='bg'>Precio: ${item.precio}</ListGroup.Item>
           </ListGroup>
           <Card.Body className='bg'>
-              <Link to={`/item/${item.id}`}><Button className='btn'>Ver más</Button></Link>
+              <Link to={`/item/${item.id}`}><Button className='btn'>Leer más</Button></Link>
           </Card.Body>
         </Card>
   );

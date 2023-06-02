@@ -1,379 +1,1164 @@
 [{
     "id": 1,
     "nombre": "Desarrollo web frontend con HTML, CSS y JavaScript",
-    "descripcion": "Aprende los fundamentos de la programación web en el lado del cliente con HTML, CSS y JavaScript. Crea diseños atractivos y desarrolla interactividad en tus páginas web.",
-    "resumen": "Este curso te enseñará los conceptos básicos de HTML para estructurar el contenido, CSS para diseñar y dar estilo a tus páginas, y JavaScript para agregar interactividad y funcionalidad. Adquirirás las habilidades necesarias para crear sitios web atractivos y funcionales desde cero.",
-    "precio": 30000,
+    "resumen": "Curso exhaustivo de desarrollo web frontend que cubre HTML, CSS y JavaScript. Aprende a construir sitios web atractivos, interactivos y responsivos.",
+    "descripcion": "Este curso te guiará a través de los fundamentos y las mejores prácticas del desarrollo web frontend utilizando HTML, CSS y JavaScript. A lo largo del curso, adquirirás los conocimientos y habilidades necesarios para construir sitios web atractivos, interactivos y responsivos. Comenzaremos con una sólida introducción a HTML, donde aprenderás a estructurar y organizar el contenido de tus páginas web utilizando etiquetas semánticas. Exploraremos la importancia de una correcta jerarquía de elementos y cómo mejorar la accesibilidad de tu sitio web. A continuación, aprenderás a aplicar estilos a tus páginas utilizando selectores, propiedades y valores. Descubrirás cómo utilizar cajas flexibles y cuadrículas CSS para crear diseños modernos y adaptables. También exploraremos técnicas avanzadas, como las animaciones CSS y las transformaciones, para dar vida a tus diseños. En la siguiente sección, comenzaremos por los conceptos básicos, como variables, tipos de datos y operadores. A medida que avancemos, exploraremos conceptos más avanzados, como funciones, objetos, arreglos y bucles. Aprenderás cómo manipular el DOM (Modelo de Objeto del Documento) para crear interacciones dinámicas en tus sitios web. Luego, nos centraremos en la creación de sitios web responsivos. Aprenderás técnicas para adaptar tus diseños a diferentes tamaños de pantalla y dispositivos, utilizando media queries y enfoques de diseño responsivo. Además, exploraremos frameworks y bibliotecas populares, como Bootstrap, para agilizar el proceso de desarrollo de sitios web responsivos. Por último, en el proyecto final del curso, aplicarás todos los conocimientos adquiridos para crear un sitio web completo desde cero. Trabajarás en un proyecto práctico que te permitirá demostrar tus habilidades en el desarrollo web frontend utilizando HTML, CSS y JavaScript.",
+    "aprendizaje": "se espera que los estudiantes adquieran una sólida comprensión de HTML, CSS y JavaScript, así como la capacidad de desarrollar sitios web frontend atractivos, interactivos y responsivos. Estarás equipado con las habilidades necesarias para construir una sólida base en el desarrollo web y continuar aprendiendo y creciendo en este campo en constante evolución.",
+    "requisitos": "No se necesitan conocimientos previos.",
     "img": "/frontend.jpeg",
-    "cupos": 12,
+    "precio": 30000,
+    "cupos": 25,
+    "cantClases": 26,
     "categoria": "programacion",
     "tema1":"Introducción a HTML",
     "tema2":"Estilización con CSS",
     "tema3":"Fundamentos de JavaScript",
     "tema4":"Manipulación del DOM",
-    "tema5":"Creación de sitios web responsivos"
+    "tema5":"Creación de sitios web responsivos",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 2,
     "nombre": "Desarrollo web backend con Node.js",
-    "descripcion": "Aprende a construir aplicaciones web en el lado del servidor utilizando Node.js. Adquiere conocimientos sobre la creación de APIs y el manejo de bases de datos.",
-    "resumen":"Este curso te enseñará cómo utilizar Node.js para desarrollar aplicaciones web en el lado del servidor. Aprenderás a crear y gestionar APIs, interactuar con bases de datos, implementar autenticación y seguridad, y desplegar tus aplicaciones en entornos de producción.",
-    "precio": 35000,
+    "resumen":"Curso completo de desarrollo web backend con Node.js. Aprende a construir servidores web robustos, manejar bases de datos, implementar autenticación de usuarios y desplegar aplicaciones en entornos de producción.",
+    "descripcion": "Este curso completo te enseñará a desarrollar aplicaciones web backend utilizando Node.js. Aprenderás a construir servidores robustos, manejar bases de datos, implementar autenticación de usuarios y desplegar aplicaciones en entornos de producción. Comenzaremos con una introducción detallada a Node.js y su ecosistema. Exploraremos los fundamentos de Node.js y cómo utilizarlo para crear aplicaciones backend eficientes y escalables. Aprenderás a trabajar con módulos, administrar dependencias y utilizar el sistema de gestión de paquetes npm. A continuación, nos adentraremos en Express.js, un popular framework web para Node.js. Aprenderás a crear servidores web utilizando Express.js y aprovechar su enfoque minimalista y flexible para el desarrollo backend. Exploraremos el enrutamiento, la creación de controladores y la gestión de middleware para construir una API RESTful completa. En el siguiente tema, nos enfocaremos en el manejo de bases de datos utilizando MongoDB, una base de datos NoSQL. Aprenderás a interactuar con MongoDB utilizando la biblioteca mongoose, crear modelos de datos, realizar consultas y realizar operaciones CRUD en la base de datos. También exploraremos conceptos avanzados como las relaciones entre documentos y la validación de datos. Luego, nos centraremos en la autenticación y autorización de usuarios. Aprenderás a implementar un sistema de autenticación robusto utilizando técnicas como el almacenamiento seguro de contraseñas, la generación y verificación de tokens de acceso, y la gestión de sesiones de usuario. También exploraremos estrategias de autorización para controlar el acceso a recursos protegidos. Por último, abordaremos el despliegue de aplicaciones en entornos de producción. Aprenderás a configurar y optimizar tu aplicación para el despliegue, utilizar herramientas de automatización como Docker y CI/CD (integración continua/despliegue continuo), y gestionar aspectos como la escalabilidad, el monitoreo y la seguridad en un entorno de producción",
+    "aprendizaje": "se espera que los estudiantes adquieran las habilidades necesarias para desarrollar aplicaciones web backend utilizando Node.js. Estarás familiarizado con el ecosistema de Node.js, serás capaz de crear servidores web robustos con Express.js, manejar bases de datos con MongoDB, implementar autenticación y autorización de usuarios, y desplegar aplicaciones en entornos de producción.",
+    "requisitos": "Conocimientos básicos de JavaScript y programación web.",
     "img": "/backend.jpeg",
-    "cupos": 16,
+    "precio": 35000,
+    "cupos": 20,
+    "cantClases": 30,
     "categoria": "programacion",
     "tema1":"Introducción a Node.js",
     "tema2":"Creación de servidores con Express.js",
     "tema3":"Manejo de bases de datos con MongoDB",
     "tema4":"Autenticación y autorización de usuarios",
-    "tema5":"Despliegue de aplicaciones en entornos de producción"
+    "tema5":"Despliegue de aplicaciones en entornos de producción",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 3,
     "nombre": "Programación orientada a objetos en Java",
-    "descripcion": "Aprende los principios de la programación orientada a objetos utilizando el lenguaje Java. Adquiere conocimientos sobre clases, objetos, herencia y polimorfismo.",
-    "resumen":"Este curso te guiará en el mundo de la programación orientada a objetos con Java. Aprenderás a diseñar y construir programas utilizando clases, objetos, herencia, polimorfismo y otros conceptos fundamentales de la POO.",
-    "precio": 20000,
+    "resumen":"Curso de programación orientada a objetos en Java. Aprende los conceptos fundamentales de la POO y cómo aplicarlos en la creación de programas robustos y modulares.",
+    "descripcion": "Este curso te introducirá al paradigma de programación orientada a objetos utilizando el lenguaje de programación Java. Aprenderás los conceptos fundamentales de la POO y cómo aplicarlos en la creación de programas robustos y modulares. Comenzaremos con una sólida introducción a la programación orientada a objetos, donde exploraremos los principios básicos de este paradigma. Aprenderás sobre clases, objetos, atributos y métodos, así como la importancia de la encapsulación y la abstracción en el diseño de software. En el siguiente tema, nos adentraremos en la implementación de clases y objetos en Java. Aprenderás cómo definir clases, crear instancias de objetos y utilizar constructores para inicializarlos. También exploraremos la creación de métodos y variables de instancia, así como el acceso a los miembros de una clase. Luego, nos sumergiremos en los conceptos de herencia y polimorfismo. Aprenderás a crear jerarquías de clases utilizando la herencia, reutilizar código a través de la herencia de atributos y métodos, y aprovechar el polimorfismo para escribir código flexible y extensible. En el siguiente tema, nos enfocaremos en la abstracción y el encapsulamiento. Aprenderás a identificar y crear clases abstractas e interfaces en Java, utilizando la abstracción para modelar entidades y comportamientos generales. Además, exploraremos cómo utilizar el encapsulamiento para ocultar detalles de implementación y promover la modularidad y la seguridad en tu código. Por último, abordaremos el manejo de excepciones en Java. Aprenderás a identificar y manejar situaciones excepcionales en tu código utilizando bloques try-catch, y cómo crear y lanzar tus propias excepciones personalizadas. También exploraremos las mejores prácticas para el manejo de excepciones y cómo utilizarlas para mejorar la robustez de tus programas.",
+    "aprendizaje": "se espera que los estudiantes adquieran una comprensión sólida de la programación orientada a objetos en Java. Estarás familiarizado con los conceptos fundamentales de la POO, como clases, objetos, herencia, polimorfismo, abstracción y encapsulamiento. Serás capaz de aplicar estos conceptos para crear programas estructurados, modulares y de fácil mantenimiento en Java.",
+    "requisitos": "Conocimientos básicos de programación en Java.",
     "img": "/objetos.jpeg",
-    "cupos": 9,
+    "precio": 20000,
+    "cupos": 20,
+    "cantClases": 15,
     "categoria": "programacion",
     "tema1":"Introducción a la programación orientada a objetos",
     "tema2":"Clases y objetos en Java",
     "tema3":"Herencia y polimorfismo",
     "tema4":"Abstracción y encapsulamiento",
-    "tema5":"Manejo de excepciones en Java"
+    "tema5":"Manejo de excepciones en Java",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 4,
     "nombre": "Desarrollo de aplicacion móviles con React Native",
-    "descripcion": "Aprende a desarrollar aplicaciones móviles multiplataforma utilizando React Native. Crea aplicaciones nativas para iOS y Android con una única base de código.",
-    "resumen": "En este curso aprenderás a utilizar React Native para crear aplicaciones móviles nativas utilizando JavaScript. Descubrirás cómo aprovechar la potencia de React y las capacidades nativas de los dispositivos para desarrollar aplicaciones de calidad para iOS y Android.",
-    "precio": 45000,
+    "resumen": "Curso de desarrollo de aplicaciones móviles con React Native. Aprende a construir interfaces de usuario interactivas, acceder a APIs nativas, gestionar el estado con Redux y desplegar aplicaciones en tiendas de aplicaciones.",
+    "descripcion": "Este curso te enseñará a desarrollar aplicaciones móviles multiplataforma utilizando React Native. Aprenderás a construir interfaces de usuario interactivas, acceder a APIs nativas del dispositivo, gestionar el estado de la aplicación con Redux y desplegar tus aplicaciones en tiendas de aplicaciones populares. Comenzaremos con una introducción detallada a React Native, un framework de desarrollo de aplicaciones móviles basado en JavaScript. Aprenderás los conceptos básicos de React Native y cómo configurar tu entorno de desarrollo. Exploraremos cómo utilizar componentes predefinidos y cómo crear tus propios componentes personalizados para construir interfaces de usuario intuitivas y atractivas. En el siguiente tema, nos adentraremos en la navegación en aplicaciones móviles. Aprenderás a implementar la navegación entre pantallas utilizando bibliotecas populares como React Navigation. Exploraremos diferentes tipos de navegación, como la navegación por pestañas y la navegación apilada, para crear una experiencia de usuario fluida. Luego, nos centraremos en el acceso a APIs nativas del dispositivo. Aprenderás a utilizar módulos nativos de React Native y a interactuar con características del dispositivo, como la cámara, los sensores y la geolocalización. También exploraremos cómo integrar bibliotecas de terceros y acceder a servicios web mediante solicitudes HTTP. En el siguiente tema, nos enfocaremos en la gestión del estado de la aplicación utilizando Redux. Aprenderás los conceptos fundamentales de Redux y cómo integrarlo en tu aplicación React Native. Descubrirás cómo crear acciones, reductores y almacenes para gestionar de manera efectiva el estado de la aplicación y facilitar la compartición de datos entre componentes. Por último, abordaremos el despliegue de aplicaciones en tiendas de aplicaciones. Aprenderás los pasos necesarios para preparar tu aplicación para el despliegue en tiendas de aplicaciones populares, como la App Store de iOS y Google Play Store de Android. Exploraremos los requisitos de publicación, las mejores prácticas de optimización y cómo realizar pruebas en dispositivos reales antes del lanzamiento.",
+    "aprendizaje": "se espera que los estudiantes adquieran las habilidades necesarias para desarrollar aplicaciones móviles multiplataforma utilizando React Native. Estarás familiarizado con los conceptos fundamentales de React Native, la navegación en aplicaciones móviles, el acceso a APIs nativas del dispositivo, la gestión del estado con Redux y el despliegue de aplicaciones en tiendas de aplicaciones.",
+    "requisitos": "Conocimientos básicos de JavaScript y desarrollo web.",
     "img": "/appmoviles.jpeg",
-    "cupos": 5,
+    "precio": 45000,
+    "cupos": 15,
+    "cantClases": 20,
     "categoria": "programacion",
     "tema1":"Introducción a React Native",
     "tema2":"Componentes y navegación",
     "tema3":"Acceso a APIs nativas",
     "tema4":"Gestión de estado con Redux",
-    "tema5":"Despliegue de aplicaciones en tiendas de aplicaciones"
+    "tema5":"Despliegue de aplicaciones en tiendas de aplicaciones",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 5,
     "nombre": "Desarrollo de videojuegos con Unity",
-    "descripcion": "Sumérgete en el emocionante mundo del desarrollo de videojuegos utilizando Unity, uno de los motores más populares y versátiles de la industria. Aprende a crear tus propios juegos para diversas plataformas.",
-    "resumen":"En este curso descubrirás los principios esenciales del desarrollo de videojuegos con Unity. Aprenderás a diseñar entornos, programar la lógica del juego, implementar mecánicas interactivas, trabajar con gráficos y audio, y optimizar tus juegos para diferentes dispositivos.",
-    "precio": 50000,
+    "resumen":"Curso de desarrollo de videojuegos con Unity. Aprende a diseñar entornos y niveles de juego, programar mecánicas y lógica del juego, implementar gráficos, audio y efectos especiales, y optimizar y desplegar juegos en diferentes plataformas.",
+    "descripcion": "Este curso te guiará en el desarrollo de videojuegos utilizando el motor de juego Unity. Aprenderás a diseñar entornos y niveles de juego, programar mecánicas y lógica del juego, implementar gráficos, audio y efectos especiales, y optimizar y desplegar tus juegos en diferentes plataformas. Comenzaremos con una introducción detallada a Unity y su entorno de desarrollo. Aprenderás a navegar por la interfaz de Unity, configurar proyectos y familiarizarte con las herramientas y características clave que ofrece el motor de juego. En el siguiente tema, nos adentraremos en el diseño de entornos y niveles de juego. Aprenderás a crear mundos virtuales, definir terrenos, colocar objetos y configurar la iluminación. Exploraremos cómo diseñar niveles interesantes y desafiantes que brinden una experiencia de juego envolvente. Luego, nos centraremos en la programación de mecánicas y lógica del juego. Aprenderás a utilizar el lenguaje de programación C# para crear scripts y controlar el comportamiento de los objetos en tu juego. Exploraremos cómo implementar movimientos de personajes, detección de colisiones, sistemas de puntuación y otros elementos de juego interactivos. En el siguiente tema, nos enfocaremos en la implementación de gráficos, audio y efectos especiales. Aprenderás a importar modelos 3D, texturas y animaciones en Unity, y cómo aplicar efectos visuales y de sonido para mejorar la experiencia del juego. También exploraremos cómo optimizar el rendimiento y la eficiencia de los recursos gráficos y de audio. Por último, abordaremos la optimización y el despliegue de juegos en diferentes plataformas. Aprenderás las mejores prácticas para optimizar el rendimiento de tu juego y asegurarte de que funcione sin problemas en diferentes dispositivos y plataformas. También exploraremos los pasos necesarios para publicar tu juego en tiendas de aplicaciones y plataformas de juegos populares.",
+    "aprendizaje": "se espera que los estudiantes adquieran las habilidades necesarias para desarrollar videojuegos utilizando Unity. Estarás familiarizado con el entorno de desarrollo de Unity, el diseño de entornos y niveles de juego, la programación de mecánicas y lógica del juego, la implementación de gráficos, audio y efectos especiales, y la optimización y despliegue de juegos en diferentes plataformas.",
+    "requisitos": "Conocimientos básicos de programación",
     "img": "/videojuegos.jpeg",
+    "precio": 50000,
     "cupos": 10,
+    "cantClases": 20,
     "categoria": "programacion",
     "tema1":"Introducción a Unity y su entorno de desarrollo",
     "tema2":"Diseño de entornos y niveles de juego",
     "tema3":"Programación de mecánicas y lógica del juego",
     "tema4":"Implementación de gráficos, audio y efectos especiales",
-    "tema5":"Optimización y despliegue de juegos en diferentes plataformas"
+    "tema5":"Optimización y despliegue de juegos en diferentes plataformas",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 6,
     "nombre": "Ciberseguridad para desarrolladores",
-    "descripcion": "Adquiere conocimientos fundamentales sobre ciberseguridad para proteger tus aplicaciones y sistemas. Aprende a identificar vulnerabilidades, aplicar buenas prácticas de seguridad y responder a posibles ataques.",
-    "resumen":" Este curso te brindará una comprensión sólida de los principios de ciberseguridad aplicados al desarrollo de software. Aprenderás sobre técnicas de hacking ético, seguridad de aplicaciones web, protección de datos, criptografía y gestión de incidentes.",
-    "precio": 15000,
+    "resumen": "Curso de ciberseguridad para desarrolladores. Aprende sobre las amenazas comunes, el hacking ético, la seguridad en aplicaciones web y APIs, la protección de datos y privacidad, y la criptografía.",
+    "descripcion": "Este curso está diseñado para desarrolladores que deseen adquirir conocimientos sólidos en ciberseguridad. Aprenderás sobre las amenazas comunes en el mundo digital, el hacking ético y las pruebas de penetración, la seguridad en aplicaciones web y APIs, la protección de datos y privacidad, así como la criptografía y la gestión de incidentes de seguridad. En el primer tema, se te introducirá al mundo de la ciberseguridad y se te familiarizará con las amenazas comunes que enfrentan los sistemas y las aplicaciones en línea. Aprenderás sobre los diversos tipos de ataques y cómo proteger tus sistemas contra ellos. En el siguiente tema, exploraremos el hacking ético y las pruebas de penetración. Aprenderás los conceptos fundamentales del hacking ético y cómo llevar a cabo pruebas de penetración para identificar vulnerabilidades en sistemas y aplicaciones. Descubrirás cómo evaluar la seguridad de tu propio código y aplicar medidas de mitigación efectivas. El tema tres se centrará en la seguridad en aplicaciones web y APIs. Aprenderás las mejores prácticas para asegurar aplicaciones web y proteger las interfaces de programación de aplicaciones (APIs) contra ataques comunes, como inyecciones SQL, cross-site scripting (XSS) y cross-site request forgery (CSRF). En el siguiente tema, nos enfocaremos en la protección de datos y privacidad. Aprenderás sobre las regulaciones de protección de datos y cómo garantizar el cumplimiento de estas normativas en tus aplicaciones. Exploraremos técnicas de cifrado, autenticación de usuarios y cómo gestionar la privacidad de los datos. Por último, abordaremos la criptografía y la gestión de incidentes de seguridad. Aprenderás sobre los principios básicos de la criptografía y cómo utilizar algoritmos criptográficos para proteger la información sensible. También exploraremos cómo gestionar los incidentes de seguridad y responder de manera efectiva ante brechas de seguridad.",
+    "aprendizaje": "se espera que los desarrolladores adquieran los conocimientos necesarios para comprender y aplicar prácticas sólidas de ciberseguridad en sus proyectos. Estarás familiarizado con las amenazas comunes en el mundo digital, el hacking ético, la seguridad en aplicaciones web y APIs, la protección de datos y privacidad, y la criptografía.",
+    "requisitos": "Conocimientos básicos de desarrollo de software y familiaridad con conceptos de seguridad informática.",
     "img": "/ciberseguridad.jpeg",
-    "cupos": 2,
+    "precio": 15000,
+    "cupos": 10,
+    "cantClases": 12,
     "categoria": "programacion",
     "tema1":"Introducción a la ciberseguridad y amenazas comunes",
     "tema2":"Hacking ético y pruebas de penetración",
     "tema3":"Seguridad en aplicaciones web y APIs",
     "tema4":"Protección de datos y privacidad",
-    "tema5":"Criptografía y gestión de incidentes de seguridad"
+    "tema5":"Criptografía y gestión de incidentes de seguridad",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 7,
     "nombre": "Aprendizaje automático con Python",
-    "descripcion": "Aprende a desarrollar y entrenar modelos de aprendizaje automático utilizando Python, realizar análisis de datos y tomar decisiones basadas en algoritmos predictivos.",
-    "resumen":"En este curso aprenderás los fundamentos del aprendizaje automático utilizando Python. Explorarás algoritmos de clasificación, regresión y agrupamiento, así como técnicas de preprocesamiento de datos y evaluación de modelos. Adquirirás las habilidades necesarias para aplicar el aprendizaje automático en diversas áreas.",
-    "precio": 15000,
+    "resumen":"Curso de aprendizaje automático con Python. Aprende sobre las aplicaciones del aprendizaje automático, el preprocesamiento de datos, los algoritmos de aprendizaje supervisado y no supervisado, así como la evaluación de modelos y la optimización de parámetros.",
+    "descripcion": "Este curso te introducirá al fascinante campo del aprendizaje automático y te proporcionará las habilidades necesarias para aplicar técnicas de aprendizaje automático utilizando el lenguaje de programación Python. Aprenderás sobre las aplicaciones del aprendizaje automático, el preprocesamiento de datos, los algoritmos de aprendizaje supervisado y no supervisado, así como la evaluación de modelos y la optimización de parámetros. En el primer tema, se te presentará una introducción al aprendizaje automático y se explorarán sus diversas aplicaciones en el mundo real. Aprenderás cómo el aprendizaje automático puede utilizarse para la clasificación, regresión, detección de anomalías, recomendaciones y mucho más. En el siguiente tema, nos adentraremos en el preprocesamiento de datos. Aprenderás a limpiar y transformar conjuntos de datos, así como a seleccionar las características más relevantes para tus modelos de aprendizaje automático. Exploraremos técnicas de normalización, manejo de datos faltantes y reducción de dimensionalidad. El tema tres se centrará en los algoritmos de aprendizaje supervisado. Aprenderás a utilizar algoritmos de clasificación y regresión para predecir etiquetas y valores numéricos a partir de los datos de entrenamiento. Exploraremos algoritmos populares como la regresión lineal, los árboles de decisión, las máquinas de vectores de soporte (SVM) y las redes neuronales. En el siguiente tema, nos enfocaremos en los algoritmos de aprendizaje no supervisado. Aprenderás a utilizar técnicas de agrupamiento (clustering) y reducción de dimensionalidad para descubrir patrones ocultos en conjuntos de datos sin etiquetar. Exploraremos algoritmos como el k-means, el análisis de componentes principales (PCA) y la agrupación espectral. Por último, abordaremos la evaluación de modelos y la optimización de parámetros. Aprenderás a evaluar la calidad de tus modelos de aprendizaje automático utilizando métricas adecuadas y técnicas de validación cruzada. También exploraremos cómo optimizar los parámetros de los modelos para obtener un rendimiento óptimo.",
+    "aprendizaje": "se espera que los estudiantes adquieran los conocimientos necesarios para aplicar técnicas de aprendizaje automático utilizando Python. Estarás familiarizado con las aplicaciones del aprendizaje automático, el preprocesamiento de datos, los algoritmos de aprendizaje supervisado y no supervisado, así como la evaluación de modelos y la optimización de parámetros.",
+    "requisitos": "Conocimientos básicos de programación en Python y fundamentos matemáticos.",
     "img": "/python.jpeg",
-    "cupos": 18,
+    "precio": 15000,
+    "cupos": 15,
+    "cantClases": 12,
     "categoria": "programacion",
     "tema1":"Introducción al aprendizaje automático y sus aplicaciones",
     "tema2":"Preprocesamiento de datos: limpieza, transformación y selección de características",
     "tema3":"Algoritmos de aprendizaje supervisado: clasificación y regresión",
     "tema4":"Algoritmos de aprendizaje no supervisado",
-    "tema5":"Evaluación de modelos y optimización de parámetros"
+    "tema5":"Evaluación de modelos y optimización de parámetros",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 8,
     "nombre": "Inteligencia artificial",
-    "descripcion": "Sumérgete en el campo de la Inteligencia Artificial y el Aprendizaje Automático. Aprende los conceptos fundamentales, las técnicas y las aplicaciones de la IA y el ML en diversos campos.",
-    "resumen":" En este curso explorarás los principios y las técnicas de la Inteligencia Artificial y el Aprendizaje Automático. Aprenderás cómo aplicar algoritmos de ML para resolver problemas complejos, como reconocimiento de imágenes, procesamiento de lenguaje natural y toma de decisiones automatizada.",
-    "precio": 40000,
+    "resumen": "Curso de Inteligencia Artificial. Aprende sobre los fundamentos de la IA, los algoritmos de aprendizaje supervisado y no supervisado, las redes neuronales y el aprendizaje profundo, el procesamiento de lenguaje natural y las aplicaciones de la IA en diferentes campos.",
+    "descripcion": "Este curso te brindará una introducción completa al campo de la Inteligencia Artificial (IA) y te sumergirá en el fascinante mundo del Aprendizaje Automático y otras técnicas avanzadas. Aprenderás sobre los fundamentos de la IA, los algoritmos de aprendizaje supervisado y no supervisado, las redes neuronales y el aprendizaje profundo, el procesamiento de lenguaje natural, así como las diversas aplicaciones de la IA en diferentes campos. En el primer tema, se te presentará una visión general de la Inteligencia Artificial y el Aprendizaje Automático. Aprenderás sobre los conceptos fundamentales, las aplicaciones y los desafíos de la IA, así como las diferencias entre el aprendizaje supervisado y no supervisado. En el siguiente tema, nos adentraremos en los algoritmos de Aprendizaje Supervisado y No Supervisado. Explorarás algoritmos clásicos y populares, como los árboles de decisión, los algoritmos de vecinos más cercanos (k-NN), el clustering y las técnicas de asociación. El tema tres se centrará en las Redes Neuronales y el Aprendizaje Profundo. Aprenderás cómo funcionan las redes neuronales artificiales, incluyendo conceptos como las capas, los pesos y las funciones de activación. Además, te sumergirás en el aprendizaje profundo y las arquitecturas de redes neuronales más avanzadas, como las redes neuronales convolucionales (CNN) y las redes neuronales recurrentes (RNN). En el siguiente tema, nos enfocaremos en el Procesamiento de Lenguaje Natural (NLP). Aprenderás sobre las técnicas utilizadas para comprender y procesar el lenguaje humano, incluyendo la tokenización, el etiquetado de partes del discurso, el análisis de sentimientos y la generación de texto. Por último, abordaremos las Aplicaciones de la Inteligencia Artificial en diversos campos. Exploraremos casos de uso reales de la IA en áreas como la medicina, la industria automotriz, la atención al cliente y más. Aprenderás cómo la IA está transformando diferentes sectores y las oportunidades que ofrece para la innovación y la mejora.",
+    "aprendiaje": "se espera que los estudiantes adquieran un conocimiento sólido de los fundamentos de la Inteligencia Artificial, así como de las técnicas de Aprendizaje Automático y sus aplicaciones. Estarás familiarizado con los algoritmos de aprendizaje supervisado y no supervisado, las redes neuronales y el aprendizaje profundo, el procesamiento de lenguaje natural y las diversas aplicaciones de la IA en diversos campos.",
+    "requisitos": "Conocimientos básicos de programación y matemáticas.",
     "img": "/inteligencia.jpeg",
+    "precio": 40000,
     "cupos": 5,
+    "cantClases": 30,
     "categoria": "programacion",
     "tema1":"Introducción a la Inteligencia Artificial y el Aprendizaje Automático",
     "tema2":"Algoritmos de Aprendizaje Supervisado y No Supervisado",
     "tema3":"Redes Neuronales y Aprendizaje Profundo",
     "tema4":"Procesamiento de Lenguaje Natural",
-    "tema5":"Aplicaciones de la Inteligencia Artificial en diversos campos"
+    "tema5":"Aplicaciones de la Inteligencia Artificial en diversos campos",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 9,
     "nombre": "Estrategias en redes sociales",
-    "descripcion": "Descubre cómo aprovechar las redes sociales para impulsar el crecimiento de tu negocio. Aprende a crear estrategias efectivas de marketing en plataformas como Facebook, Instagram, Twitter y LinkedIn.",
-    "resumen":"En este curso aprenderás las mejores prácticas y técnicas para desarrollar estrategias de marketing en redes sociales. Obtendrás conocimientos sobre segmentación de audiencia, creación de contenido atractivo, gestión de campañas publicitarias y análisis de resultados.",
-    "precio": 12000,
+    "resumen":"Curso de Estrategias en redes sociales. Aprende a utilizar las redes sociales como herramienta de marketing, identificar objetivos y audiencia, crear contenido atractivo, gestionar campañas publicitarias y medir los resultados.",
+    "descripcion": "Este curso te enseñará las mejores prácticas y estrategias efectivas para utilizar las redes sociales como herramienta de marketing. Aprenderás sobre la importancia del marketing en redes sociales, cómo identificar objetivos y definir tu audiencia objetivo, crear contenido relevante y atractivo, gestionar campañas publicitarias en redes sociales, y medir y analizar los resultados para optimizar tus estrategias. En el primer tema, se te introducirá al marketing en redes sociales. Aprenderás sobre las plataformas populares, las tendencias actuales y cómo las redes sociales pueden beneficiar a las empresas y marcas. También explorarás las diferencias entre las distintas redes sociales y cómo seleccionar las más adecuadas para tus objetivos. En el siguiente tema, nos adentraremos en la identificación de objetivos y la definición de la audiencia objetivo. Aprenderás a establecer metas claras y específicas para tus estrategias en redes sociales, así como a identificar y comprender a tu público objetivo. Exploraremos técnicas para investigar y analizar a tu audiencia, y cómo adaptar tu enfoque para alcanzar tus objetivos. El tema tres se centrará en la creación de contenido relevante y atractivo. Aprenderás a desarrollar una estrategia de contenido efectiva, incluyendo la elección de temas, la redacción de mensajes persuasivos y la selección de formatos de contenido adecuados. También exploraremos cómo optimizar tus publicaciones para aumentar el compromiso y la participación de la audiencia. En el siguiente tema, nos enfocaremos en la gestión de campañas publicitarias en redes sociales. Aprenderás a utilizar las herramientas de publicidad disponibles en las distintas plataformas de redes sociales, cómo establecer presupuestos, segmentar audiencias y medir el rendimiento de tus campañas. También exploraremos técnicas para optimizar tus anuncios y maximizar el retorno de la inversión (ROI). Por último, abordaremos la medición y el análisis de resultados. Aprenderás a utilizar herramientas de análisis para evaluar el rendimiento de tus estrategias en redes sociales, cómo interpretar métricas clave y realizar ajustes para mejorar tus resultados. También exploraremos cómo informar y presentar los resultados a los stakeholders de tu empresa.",
+    "aprendizaje": "se espera que los estudiantes adquieran los conocimientos y habilidades necesarios para desarrollar estrategias efectivas en redes sociales. Estarás familiarizado con el marketing en redes sociales, la identificación de objetivos y audiencia, la creación de contenido relevante, la gestión de campañas publicitarias, y la medición y análisis de resultados.",
+    "requisitos": "Conocimientos básicos de marketing y familiaridad con el uso de las redes sociales.",
     "img": "/redes.jpeg",
+    "precio": 12000,
     "cupos": 25,
+    "cantClases": 1,
     "categoria": "marketing",
     "tema1":"Introducción al marketing en redes sociales",
     "tema2":"Identificación de objetivos y definición de la audiencia objetivo",
     "tema3":"Creación de contenido relevante y atractivo",
     "tema4":"Gestión de campañas publicitarias en redes sociales",
-    "tema5":"Medición y análisis de resultados"
+    "tema5":"Medición y análisis de resultados",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 10,
     "nombre": "Publicidad en linea",
-    "descripcion": " Aprende a utilizar la plataforma de publicidad en línea de Google para promocionar tu negocio. Descubre cómo crear anuncios efectivos, gestionar campañas y optimizar tus estrategias publicitarias.",
-    "resumen":"En este curso aprenderás a utilizar Google Ads para crear anuncios en línea y alcanzar a tu audiencia objetivo. Explorarás las diferentes opciones de segmentación, estrategias de puja, formatos de anuncios y herramientas de optimización para maximizar el rendimiento de tus campañas.",
-    "precio": 18000,
+    "resumen": " Aprende a utilizar la plataforma de publicidad en línea de Google para promocionar tu negocio. Descubre cómo crear anuncios efectivos, gestionar campañas y optimizar tus estrategias publicitarias.",
+    "descripcion": "El curso de Publicidad en línea te brinda los conocimientos y las habilidades necesarias para crear y gestionar campañas publicitarias efectivas en Internet. A lo largo del curso, explorarás las principales plataformas publicitarias en línea, centrándote especialmente en Google Ads, la herramienta de publicidad de Google. Aprenderás cómo configurar campañas, seleccionar palabras clave, crear anuncios persuasivos, optimizar tus campañas y analizar los resultados para maximizar el rendimiento de tus anuncios en línea. En el primer tema, recibirás una introducción completa a Google Ads y la publicidad en línea. Aprenderás sobre la importancia de la publicidad en Internet y cómo Google Ads se ha convertido en una de las plataformas publicitarias más utilizadas y efectivas. Explorarás los diferentes tipos de anuncios y las opciones de segmentación disponibles en Google Ads. En el segundo tema, te adentrarás en la configuración de campañas y la selección de palabras clave. Aprenderás a crear campañas publicitarias en Google Ads, establecer objetivos de publicidad y definir el presupuesto. Además, explorarás cómo realizar una investigación de palabras clave efectiva y seleccionar las palabras clave adecuadas para tus anuncios. El tercer tema se centrará en la creación de anuncios efectivos y los formatos de anuncios disponibles en Google Ads. Aprenderás a redactar anuncios persuasivos que capten la atención de tu audiencia y generen clics. También explorarás los diferentes formatos de anuncios, como anuncios de búsqueda, anuncios gráficos y anuncios de video, y aprenderás a adaptar tus anuncios al formato adecuado. En el cuarto tema, nos adentraremos en las estrategias de puja y la optimización de campañas en Google Ads. Aprenderás a establecer estrategias de puja para maximizar el rendimiento de tus anuncios, optimizar la estructura de tus campañas y utilizar herramientas y métricas para evaluar y mejorar el rendimiento de tus anuncios en línea. En el último tema, te sumergirás en el seguimiento y análisis de resultados en Google Ads. Aprenderás a utilizar las herramientas de seguimiento y análisis de Google Ads para medir el rendimiento de tus anuncios, realizar un seguimiento de conversiones y analizar los resultados de tus campañas. También explorarás técnicas para optimizar tus anuncios en función de los datos y métricas obtenidos.",
+    "aprendizaje": "serás capaz de utilizar Google Ads de manera efectiva, seleccionar palabras clave relevantes, crear anuncios persuasivos, optimizar tus campañas y analizar los resultados para mejorar el rendimiento de tus anuncios en línea.",
+    "requisitos": "Se recomienda tener conocimientos básicos de marketing y estar familiarizado con el funcionamiento de Internet y los motores de búsqueda",
     "img": "/publicidad.jpeg",
-    "cupos": 12,
+    "precio": 18000,
+    "cupos": 15,
+    "cantClases": 15,
     "categoria": "marketing",
     "tema1":"Introducción a Google Ads y la publicidad en línea",
     "tema2":"Configuración de campañas y selección de palabras clave",
     "tema3":"Creación de anuncios efectivos y formatos de anuncios",
     "tema4":"Estrategias de puja y optimización de campañas",
-    "tema5":"Seguimiento y análisis de resultados en Google Ads"
+    "tema5":"Seguimiento y análisis de resultados en Google Ads",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 11,
     "nombre": "Email marketing",
-    "descripcion": "Descubre cómo utilizar el email marketing para alcanzar a tu audiencia de manera efectiva. Aprende a crear campañas de correo electrónico persuasivas, gestionar listas de suscriptores y medir el rendimiento de tus campañas.",
-    "resumen":"En este curso aprenderás las mejores prácticas del email marketing. Explorarás cómo diseñar y enviar campañas de correo electrónico impactantes, utilizar estrategias de automatización, gestionar listas de suscriptores y realizar pruebas A/B para mejorar tus resultados.",
-    "precio": 15000,
+    "resumen": "Descubre cómo utilizar el email marketing para alcanzar a tu audiencia de manera efectiva. Aprende a crear campañas de correo electrónico persuasivas, gestionar listas de suscriptores y medir el rendimiento de tus campañas.",
+    "descripcion": "El curso de Email marketing te brinda los conocimientos y las habilidades necesarias para utilizar el correo electrónico de manera efectiva como una herramienta de marketing. Aprenderás cómo diseñar y crear campañas de correo electrónico persuasivas, segmentar y gestionar listas de suscriptores, automatizar tus campañas y flujos de correo electrónico, y realizar un seguimiento y análisis de los resultados para mejorar tus estrategias de email marketing. En el primer tema, se te introducirá al email marketing y se te explicará su importancia en el panorama actual del marketing digital. Aprenderás cómo el correo electrónico puede ser utilizado como una herramienta poderosa para llegar a tu audiencia, fortalecer la relación con los clientes y generar conversiones. Además, se te presentarán las mejores prácticas y las normas éticas a seguir en el email marketing. En el segundo tema, te adentrarás en el diseño y la creación de campañas de correo electrónico persuasivas. Aprenderás cómo crear correos electrónicos atractivos y efectivos, utilizando técnicas de diseño visual, redacción persuasiva y llamadas a la acción claras. También se te enseñará a adaptar tus campañas de correo electrónico a diferentes dispositivos y a optimizar la entrega de tus mensajes. El tercer tema se centrará en la segmentación y la gestión de listas de suscriptores. Aprenderás cómo segmentar tu lista de suscriptores en función de diferentes criterios, como intereses, comportamientos y demografía, para enviar mensajes más relevantes y personalizados. Además, se te mostrará cómo gestionar y mantener una lista de suscriptores actualizada y cómo implementar estrategias para aumentar tu base de suscriptores. En el cuarto tema, nos adentraremos en la automatización de campañas y flujos de correo electrónico. Aprenderás cómo utilizar herramientas de automatización de email marketing para enviar mensajes en momentos específicos, como el envío de mensajes de bienvenida, mensajes de seguimiento y mensajes de carrito abandonado. También se te enseñará a crear flujos de correo electrónico automatizados que guíen a tus suscriptores a través de un embudo de ventas y les proporcionen contenido relevante en el momento adecuado. En el último tema, te sumergirás en el seguimiento y análisis de resultados en el email marketing. Aprenderás cómo utilizar herramientas de análisis para medir la efectividad de tus campañas, como las tasas de apertura, tasas de clics y tasas de conversión. También se te mostrará cómo realizar pruebas A/B para mejorar tus estrategias de email marketing y cómo utilizar la retroalimentación de los suscriptores para optimizar tus mensajes.",
+    "aprendizaje": "podrán diseñar y crear campañas de correo electrónico persuasivas, segmentar y gestionar listas de suscriptores, automatizar flujos de correo electrónico y realizar un seguimiento y análisis de resultados para mejorar continuamente sus estrategias de email marketing.",
+    "requisitos": "Se recomienda tener conocimientos básicos de marketing digital y estar familiarizado con el uso del correo electrónico.",
     "img": "/email.jpeg",
+    "precio": 15000,
     "cupos": 30,
+    "cantClases": 12,
     "categoria": "marketing",
     "tema1":"Introducción al email marketing y su importancia",
     "tema2":"Diseño y creación de campañas de correo electrónico persuasivas",
     "tema3":"Segmentación y gestión de listas de suscriptores",
     "tema4":"Automatización de campañas y flujos de correo electrónico",
-    "tema5":"Seguimiento y análisis de resultados en email marketing"
+    "tema5":"Seguimiento y análisis de resultados en email marketing",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 12,
     "nombre": "Posicionamiento en motores de búsqueda",
-    "descripcion": "Aprende las técnicas y estrategias para mejorar el posicionamiento de tu sitio web en los motores de búsqueda. Descubre cómo optimizar el contenido, la estructura del sitio y el uso de palabras claves.",
-    "resumen":"En este curso explorarás las mejores prácticas de SEO para mejorar la visibilidad de tu sitio web en los motores de búsqueda. Aprenderás a realizar análisis de palabras clave, optimizar el contenido, mejorar la estructura del sitio y generar enlaces de calidad para atraer tráfico orgánico.",
-    "precio": 20000,
+    "resumen": "Aprende las técnicas y estrategias para mejorar el posicionamiento de tu sitio web en los motores de búsqueda. Descubre cómo optimizar el contenido, la estructura del sitio y el uso de palabras claves.",
+    "descripcion": "El curso de Posicionamiento en motores de búsqueda te proporcionará los conocimientos y las habilidades necesarias para optimizar un sitio web y mejorar su visibilidad en los motores de búsqueda. Aprenderás las mejores prácticas de SEO (Search Engine Optimization) y las estrategias clave para aumentar la clasificación de tu sitio web en los resultados de búsqueda. En el primer tema, se te introducirá al SEO y se te explicará su importancia en la estrategia de marketing digital. Aprenderás cómo los motores de búsqueda funcionan, cómo indexan y clasifican los sitios web, y por qué es crucial estar bien posicionado en los resultados de búsqueda. También se te mostrará cómo el SEO puede generar tráfico orgánico y relevante hacia tu sitio web. El segundo tema se enfocará en la investigación de palabras clave y el análisis de la competencia. Aprenderás cómo identificar las palabras clave relevantes para tu negocio y cómo analizar la competencia para descubrir oportunidades de posicionamiento. También se te enseñará cómo utilizar herramientas de investigación de palabras clave y análisis de competencia para obtener información valiosa. En el tercer tema, nos adentraremos en la optimización del contenido y las etiquetas HTML. Aprenderás cómo crear contenido relevante y de calidad que cumpla con los requisitos de los motores de búsqueda. Se te mostrará cómo optimizar las etiquetas HTML, como los encabezados, las meta descripciones y las etiquetas de título, para mejorar la visibilidad de tu sitio web en los resultados de búsqueda. En el cuarto tema, nos centraremos en la mejora de la estructura del sitio y la experiencia de usuario. Aprenderás cómo optimizar la arquitectura del sitio web, la navegación y la estructura de enlaces internos para facilitar la indexación y mejorar la experiencia de los usuarios. También se te enseñará cómo optimizar la velocidad de carga del sitio y cómo adaptarlo para dispositivos móviles. En el último tema, nos adentraremos en la generación de enlaces de calidad y las estrategias de link building. Aprenderás cómo construir una sólida estrategia de backlinks para aumentar la autoridad y relevancia de tu sitio web. Se te mostrará cómo identificar oportunidades de enlaces, cómo realizar una búsqueda efectiva de backlinks y cómo implementar tácticas éticas de link building.",
+    "aprendizaje": "podrán realizar una optimización efectiva de sitios web, mejorar su visibilidad en los motores de búsqueda y aumentar el tráfico orgánico y relevante hacia sus sitios web.",
+    "requisitos": "No se requieren conocimientos previos pero es beneficioso tener conocimientos básicos de marketing digital.",
     "img": "/seo.jpeg",
-    "cupos": 7,
+    "precio": 20000,
+    "cupos": 10,
+    "cantClases": 17,
     "categoria": "marketing",
     "tema1":"Introducción al SEO y su importancia",
     "tema2":"Investigación de palabras clave y análisis de competencia",
     "tema3":"Optimización del contenido y etiquetas HTML",
     "tema4":"Mejora de la estructura del sitio y la experiencia de usuario",
-    "tema5":"Generación de enlaces de calidad y estrategias de link building"
+    "tema5":"Generación de enlaces de calidad y estrategias de link building",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 13,
     "nombre": "Publicidad en buscadores",
-    "descripcion": "Aprende a utilizar Google AdWords y otras plataformas de publicidad en buscadores para promocionar tu negocio. Descubre cómo crear campañas efectivas, seleccionar palabras clave relevantes y optimizar tu presupuesto publicitario.",
-    "resumen":" En este curso aprenderás a utilizar Google AdWords y otras herramientas de publicidad en buscadores para alcanzar a tu audiencia de manera efectiva. Explorarás cómo configurar campañas publicitarias, seleccionar palabras clave relevantes, escribir anuncios persuasivos y medir el rendimiento de tus campañas.",
-    "precio": 20000,
+    "resumen": "Aprende a utilizar Google AdWords y otras plataformas de publicidad en buscadores para promocionar tu negocio. Descubre cómo crear campañas efectivas, seleccionar palabras clave relevantes y optimizar tu presupuesto publicitario.",
+    "descripcion": "El curso de Publicidad en buscadores te brindará los conocimientos y las habilidades necesarias para crear y optimizar campañas de publicidad efectivas en buscadores como Google AdWords. Aprenderás cómo aprovechar las plataformas de publicidad en buscadores para promocionar tu negocio, generar tráfico cualificado y aumentar la visibilidad de tu sitio web. En el primer tema, se te introducirá a la publicidad en buscadores y a Google AdWords. Aprenderás los conceptos fundamentales de la publicidad en línea y cómo funciona el modelo de anuncios pagados en los resultados de búsqueda. Se te mostrará cómo configurar una cuenta de Google AdWords y cómo navegar por su interfaz. En el segundo tema, nos enfocaremos en la configuración de campañas y la selección de palabras clave. Aprenderás cómo crear campañas publicitarias segmentadas, establecer objetivos de publicidad y seleccionar palabras clave relevantes para tus anuncios. Se te enseñará cómo utilizar herramientas de investigación de palabras clave y cómo estructurar tus campañas para obtener resultados óptimos. En el tercer tema, nos adentraremos en la creación de anuncios efectivos y extensiones de anuncios. Aprenderás a redactar anuncios persuasivos y atractivos que llamen la atención de los usuarios. También se te mostrará cómo utilizar extensiones de anuncios para agregar información adicional y mejorar la visibilidad de tus anuncios en los resultados de búsqueda. En el cuarto tema, nos centraremos en la optimización de campañas y las estrategias de puja. Aprenderás cómo analizar y optimizar el rendimiento de tus campañas, ajustar tus pujas para obtener el máximo retorno de inversión y utilizar estrategias de puja avanzadas. Se te enseñará cómo realizar pruebas A/B y cómo utilizar datos analíticos para mejorar tus campañas. En el último tema, nos adentraremos en el seguimiento y análisis de resultados en publicidad en buscadores. Aprenderás cómo utilizar herramientas de seguimiento y analítica para medir el éxito de tus campañas, realizar un seguimiento de las conversiones y obtener información valiosa sobre el rendimiento de tus anuncios. También se te mostrará cómo realizar informes y cómo utilizar los datos para tomar decisiones informadas.",
+    "aprendizaje": "se espera que los estudiantes adquieran un sólido conocimiento y habilidades en la creación, gestión y optimización de campañas de publicidad en buscadores.",
+    "requisitos": "No se requieren conocimientos previos pero es beneficioso tener conocimientos básicos de marketing digital.",
     "img": "/sem.jpeg",
-    "cupos": 21,
+    "precio": 20000,
+    "cupos": 20,
+    "cantClases": 17,
     "categoria": "marketing",
     "tema1":"Introducción a la publicidad en buscadores y Google AdWords",
     "tema2":"Configuración de campañas y selección de palabras clave",
     "tema3":"Creación de anuncios efectivos y extensiones de anuncios",
     "tema4":"Optimización de campañas y estrategias de puja",
-    "tema5":"Seguimiento y análisis de resultados en publicidad en buscadores"
+    "tema5":"Seguimiento y análisis de resultados en publicidad en buscadores",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 14,
     "nombre": "Branding",
-    "descripcion": " Descubre cómo construir una marca sólida y memorable. Aprende a desarrollar una identidad de marca, comunicar los valores y mensajes adecuados, y crear una conexión emocional con tu audiencia.",
-    "resumen":"En este curso explorarás los fundamentos del branding y cómo construir una marca fuerte y coherente. Aprenderás a definir la identidad de marca, desarrollar estrategias de comunicación efectivas, crear una voz y tono distintivos, y construir una imagen de marca sólida.",
-    "precio": 15000,
+    "resumen": "Descubre cómo construir una marca sólida y memorable. Aprende a desarrollar una identidad de marca, comunicar los valores y mensajes adecuados, y crear una conexión emocional con tu audiencia.",
+    "descripcion": "El curso de Branding te guiará a través de los fundamentos esenciales del branding y cómo construir una identidad de marca sólida. Aprenderás cómo crear una marca distintiva y memorable que conecte con tu audiencia y se destaque en el mercado. En el primer tema, se te introducirá al branding y se explorará su importancia en el mundo empresarial. Aprenderás los conceptos fundamentales del branding y cómo puede influir en la percepción de una empresa. Se discutirá cómo una estrategia de branding sólida puede diferenciar a una empresa de sus competidores y generar una conexión emocional con los clientes. En el segundo tema, nos enfocaremos en la definición de la identidad de marca. Aprenderás cómo establecer el propósito, los valores y la personalidad de tu marca. Se explorarán técnicas para identificar y comunicar la esencia de tu marca, y cómo alinearla con las expectativas y valores de tu audiencia objetivo. En el tercer tema, nos adentraremos en las estrategias de comunicación y posicionamiento de marca. Aprenderás cómo desarrollar mensajes claros y coherentes que transmitan los valores y la personalidad de tu marca. Se discutirán las diferentes plataformas de comunicación disponibles y cómo seleccionar las más adecuadas para alcanzar a tu audiencia objetivo. En el cuarto tema, nos centraremos en el diseño de elementos visuales de marca. Aprenderás cómo crear un logotipo distintivo que represente la identidad de tu marca. Se explorará el uso de colores, tipografía y otros elementos visuales para transmitir la personalidad de tu marca de manera coherente y efectiva. En el último tema, nos adentraremos en la construcción de una experiencia de marca coherente y memorable. Aprenderás cómo crear una experiencia consistente en todos los puntos de contacto con tu marca, desde tu sitio web y redes sociales hasta tus productos y servicios. Se discutirán estrategias para generar una conexión emocional con los clientes y fomentar la fidelidad a la marca.",
+    "aprendizaje": "podrán definir la identidad de una marca, desarrollar estrategias de comunicación efectivas y crear una experiencia de marca coherente y memorable.",
+    "requisitos": "No se necesitan conocimientos previos",
     "img": "/branding.jpeg",
-    "cupos": 16,
+    "precio": 15000,
+    "cupos": 15,
+    "cantClases": 12,
     "categoria": "marketing",
     "tema1":"Introducción al branding y su importancia",
     "tema2":"Definición de la identidad de marca: propósito, valores y personalidad",
     "tema3":"Estrategias de comunicación y posicionamiento de marca",
     "tema4":"Diseño de elementos visuales de marca: logotipo, colores y tipografía",
-    "tema5":"Construcción de una experiencia de marca coherente y memorable"
+    "tema5":"Construcción de una experiencia de marca coherente y memorable",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 15,
     "nombre": "Diseño de experiencia de usuario (UX)" ,
-    "descripcion": "Aprende los principios y técnicas para diseñar experiencias de usuario excepcionales. Descubre cómo investigar, diseñar y evaluar interfaces intuitivas y atractivas que cumplan con las necesidades y expectativas de los usuarios." ,
-    "resumen":"En este curso explorarás los fundamentos del diseño de experiencia de usuario (UX). Aprenderás a realizar investigaciones de usuarios, crear wireframes y prototipos interactivos, y realizar pruebas de usabilidad. Mejorarás tus habilidades para diseñar interfaces intuitivas y agradables para los usuarios.",
-    "precio": 20000,
+    "resumen": "Aprende los principios y técnicas para diseñar experiencias de usuario excepcionales. Descubre cómo investigar, diseñar y evaluar interfaces intuitivas y atractivas que cumplan con las necesidades y expectativas de los usuarios." ,
+    "descripcion": "El curso de Diseño de Experiencia de Usuario (UX) te brindará los conocimientos y habilidades necesarios para crear experiencias digitales atractivas y satisfactorias para los usuarios. Aprenderás a comprender las necesidades y expectativas de los usuarios, diseñar interfaces intuitivas y evaluar la experiencia de usuario para realizar mejoras continuas. En el primer tema, se te introducirá al diseño de experiencia de usuario (UX) y se explorará su importancia en el desarrollo de productos y servicios digitales. Aprenderás los conceptos fundamentales del UX y cómo influye en la satisfacción y lealtad de los usuarios. Se discutirán los principios clave del diseño centrado en el usuario y cómo aplicarlos en tus proyectos. En el segundo tema, nos enfocaremos en la investigación de usuarios y el análisis de requerimientos. Aprenderás técnicas para comprender las necesidades, deseos y comportamientos de los usuarios. Se discutirán métodos de investigación, como entrevistas, encuestas y pruebas de usabilidad, para recopilar datos valiosos que informen el diseño de la experiencia de usuario. En el tercer tema, nos adentraremos en el diseño de arquitectura de información y la creación de wireframes. Aprenderás cómo organizar y estructurar la información de manera clara y accesible para los usuarios. Se explorarán técnicas de diseño de flujos de navegación, categorización de contenido y creación de wireframes, que son representaciones visuales de la estructura y el diseño básico de una interfaz. En el cuarto tema, nos centraremos en el diseño de interfaces atractivas y usables. Aprenderás principios de diseño visual, como la selección de colores, tipografía, iconografía y espaciado, para crear interfaces atractivas y legibles. Se discutirán prácticas de diseño centrado en el usuario, como el diseño responsivo y la accesibilidad, para garantizar que las interfaces sean utilizables en diferentes dispositivos y por personas con diversas capacidades. En el último tema, nos adentraremos en la evaluación y mejora continua de la experiencia de usuario. Aprenderás técnicas de evaluación, como pruebas de usabilidad y análisis de métricas, para identificar áreas de mejora en la experiencia de usuario. Se discutirán métodos para recopilar y analizar datos, interpretar resultados y tomar decisiones informadas para optimizar la experiencia de usuario.",
+    "aprendizaje": "podrán investigar las necesidades de los usuarios, diseñar interfaces intuitivas, evaluar la experiencia de usuario y realizar mejoras basadas en datos.",
+    "requisitos": "No se requieren requisitos previos específicos, pero se recomienda tener conocimientos básicos de diseño y familiaridad con la tecnología y el uso de productos y servicios digitales.",
     "img": "/ux.jpeg",
+    "precio": 20000,
     "cupos": 25,
+    "cantClases": 15,
     "categoria": "diseño",
     "tema1":"Introducción al diseño de experiencia de usuario (UX) y su importancia",
     "tema2":"Investigación de usuarios y análisis de requerimientos",
     "tema3":"Diseño de arquitectura de información y creación de wireframes",
     "tema4":"Diseño de interfaces atractivas y usables",
-    "tema5":"Evaluación y mejora continua de la experiencia de usuario"
+    "tema5":"Evaluación y mejora continua de la experiencia de usuario",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
     
   }, {
     "id": 16,
     "nombre": "Diseño de interfaces de usuario (UI)" ,
-    "descripcion":"Aprende a diseñar interfaces de usuario atractivas y efectivas. Explora los principios de diseño visual, la tipografía, el uso del color y la disposición de elementos para crear interfaces agradables y funcionales.",
-    "resumen":"En este curso te adentrarás en los aspectos visuales del diseño de interfaces de usuario (UI). Aprenderás sobre la importancia de la tipografía, el uso del color, la disposición de elementos y la creación de patrones visuales coherentes. Mejorarás tus habilidades para diseñar interfaces atractivas y efectivas.",
-    "precio": 20000,
+    "resumen": "Aprende a diseñar interfaces de usuario atractivas y efectivas. Explora los principios de diseño visual, la tipografía, el uso del color y la disposición de elementos para crear interfaces agradables y funcionales.",
+    "descripcion": "El curso de Diseño de Interfaces de Usuario (UI) te proporcionará los conocimientos y habilidades necesarios para crear interfaces digitales atractivas, intuitivas y funcionales. Aprenderás los principios fundamentales del diseño visual, la creación de patrones visuales y elementos de interacción, así como las mejores prácticas para diseñar interfaces responsivas y adaptativas. En el primer tema, se te introducirá al diseño de interfaces de usuario (UI) y se explorará su importancia en la creación de experiencias digitales satisfactorias. Aprenderás los conceptos clave del diseño de UI y cómo influye en la usabilidad y la experiencia del usuario. Se discutirán los principios de diseño centrados en el usuario y cómo aplicarlos en tus proyectos. En el segundo tema, nos enfocaremos en los principios de diseño visual para crear interfaces atractivas. Aprenderás sobre la selección adecuada de tipografía, el uso efectivo del color y la aplicación de elementos gráficos para mejorar la legibilidad y la estética de las interfaces. Se explorarán técnicas de composición visual y cómo crear jerarquía visual para guiar la atención del usuario. En el tercer tema, nos adentraremos en el diseño de patrones visuales y elementos de interacción. Aprenderás a diseñar elementos como botones, menús, formularios y elementos de navegación para mejorar la interacción y la usabilidad de las interfaces. Se discutirán las mejores prácticas para la colocación, tamaño, forma y comportamiento de los elementos interactivos. En el cuarto tema, nos centraremos en el diseño responsivo y adaptativo de interfaces. Aprenderás a diseñar interfaces que se adapten y respondan a diferentes tamaños de pantalla y dispositivos. Se explorarán técnicas como el diseño fluido, las cuadrículas flexibles y las imágenes adaptables para crear interfaces que se vean y funcionen de manera óptima en diferentes contextos. En el último tema, nos adentraremos en las mejores prácticas de diseño de interfaces de usuario. Aprenderás a aplicar principios de accesibilidad, a crear flujos de interacción intuitivos y a optimizar el rendimiento de las interfaces. Se discutirán técnicas de prototipado y pruebas de usabilidad para iterar y mejorar el diseño de la interfaz.",
+    "aprendizaje": "podrán diseñar interfaces atractivas, intuitivas y funcionales, considerando aspectos visuales, interactivos y de adaptabilidad.",
+    "requisitos": "No se requieren conocimientos previos para realizar este curso. Sin embargo, es beneficioso tener interés en el diseño visual.",
     "img": "/ui.jpeg",
-    "cupos": 18,
+    "precio": 20000,
+    "cupos": 15,
+    "cantClases": 15,
     "categoria": "diseño",
     "tema1":"Introducción al diseño de interfaces de usuario (UI) y su importancia",
     "tema2":"Principios de diseño visual: tipografía, color y elementos gráficos",
     "tema3":"Diseño de patrones visuales y elementos de interacción",
     "tema4":"Diseño responsivo y adaptativo",
-    "tema5":"Mejores prácticas de diseño de interfaces de usuario"
+    "tema5":"Mejores prácticas de diseño de interfaces de usuario",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 17,
     "nombre": "Adobe Photoshop",
-    "descripcion": "Aprende a utilizar Adobe Photoshop, la herramienta líder en edición y manipulación de imágenes. Descubre las herramientas y técnicas básicas para retocar fotografías, crear composiciones y diseñar gráficos atractivos." ,
-    "precio":12000,
+    "resumen": "Aprende a utilizar Adobe Photoshop, la herramienta líder en edición y manipulación de imágenes. Descubre las herramientas y técnicas básicas para retocar fotografías, crear composiciones y diseñar gráficos atractivos." ,
+    "descripcion": "El curso de Adobe Photoshop te proporcionará los conocimientos y habilidades necesarios para utilizar esta potente herramienta de edición y manipulación de imágenes. Aprenderás desde los conceptos básicos hasta técnicas avanzadas para retocar, componer y mejorar tus fotografías y diseños gráficos. En el primer tema, se te introducirá a Adobe Photoshop y su interfaz. Aprenderás a familiarizarte con la estructura del programa, la disposición de las herramientas y paneles, y cómo configurar tu espacio de trabajo de acuerdo a tus necesidades. Se te enseñarán los conceptos básicos de navegación y zoom, así como las diferentes opciones de visualización de las imágenes. En el segundo tema, nos enfocaremos en las herramientas básicas de edición y retoque de imágenes. Aprenderás a utilizar herramientas como el pincel, el tampón de clonar, la herramienta de recorte y la herramienta de selección para corregir imperfecciones, eliminar objetos no deseados y mejorar la calidad de tus imágenes. También se te enseñarán técnicas de ajuste de brillo, contraste, saturación y nitidez. En el tercer tema, nos adentraremos en el trabajo con capas y ajustes de color. Aprenderás a utilizar capas para organizar y controlar los elementos de tus composiciones. Se te enseñarán técnicas de ajuste de color mediante capas de ajuste, como niveles, curvas y balance de color. También aprenderás a trabajar con máscaras de capa para aplicar ajustes selectivos. En el cuarto tema, nos centraremos en la creación de composiciones y montajes fotográficos. Aprenderás a combinar varias imágenes para crear composiciones creativas y realistas. Se te enseñarán técnicas de recorte, transformación y fusión de imágenes, así como la aplicación de efectos de iluminación y sombras para lograr integración y coherencia en tus composiciones. En el último tema, nos adentraremos en la aplicación de efectos y filtros creativos. Aprenderás a utilizar herramientas y filtros para aplicar efectos artísticos, como desenfoques, distorsiones y estilos. Se te enseñarán técnicas de enfoque selectivo, creación de efectos de texto y aplicación de ajustes preestablecidos para agilizar tu flujo de trabajo.",
+    "aprendizaje": "podrán editar y retocar imágenes, crear composiciones y montajes fotográficos, y aplicar efectos y filtros creativos para producir trabajos de calidad profesional.",
+    "requisitos": "No se necesitan conocimientos previos.",
     "img":"/photoshop.jpeg",
+    "precio":12000,
     "cupos":25,
+    "cantClases":10,
     "categoria":"diseño",
     "tema1":"Introducción a Adobe Photoshop y su interfaz",
     "tema2":"Herramientas básicas de edición y retoque de imágenes",
     "tema3":"Trabajo con capas y ajustes de color",
     "tema4":"Creación de composiciones y montajes fotográficos",
-    "tema5":"Aplicación de efectos y filtros creativos"
+    "tema5":"Aplicación de efectos y filtros creativos",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 18,
     "nombre": "Adobe Illustrator",
-    "descripcion": "Aprende a utilizar Adobe Illustrator, la herramienta líder en diseño vectorial. Descubre las herramientas y técnicas básicas para crear ilustraciones, logotipos y gráficos vectoriales de alta calidad.",
-    "resumen":"En este curso aprenderás los fundamentos de Adobe Illustrator, desde la navegación por la interfaz hasta la creación de ilustraciones vectoriales. Dominarás las herramientas de dibujo, la manipulación de formas, el manejo de colores y la creación de efectos especiales.",
-    "precio":12000,
+    "resumen": "Aprende a utilizar Adobe Illustrator, la herramienta líder en diseño vectorial. Descubre las herramientas y técnicas básicas para crear ilustraciones, logotipos y gráficos vectoriales de alta calidad.",
+    "descripcion": "El curso de Adobe Illustrator te proporcionará los conocimientos y habilidades necesarios para utilizar esta potente herramienta de diseño vectorial. Aprenderás desde los conceptos básicos hasta técnicas avanzadas para crear ilustraciones, gráficos y diseños escalables de alta calidad. En el primer tema, se te introducirá a Adobe Illustrator y su entorno de trabajo. Aprenderás a familiarizarte con la interfaz del programa, la disposición de las herramientas y paneles, y cómo configurar tu espacio de trabajo de acuerdo a tus necesidades. Se te enseñarán los conceptos básicos de navegación y zoom, así como las diferentes opciones de visualización de los documentos. En el segundo tema, nos enfocaremos en las herramientas de dibujo y manipulación de formas. Aprenderás a utilizar herramientas como la pluma, el lápiz y el pincel para crear trazos y formas personalizadas. Se te enseñarán técnicas de edición y manipulación de puntos de ancla, así como la utilización de herramientas de transformación y alineación para crear ilustraciones precisas. En el tercer tema, nos adentraremos en el trabajo con texto y tipografía. Aprenderás a utilizar herramientas de texto para crear títulos, párrafos y estilos de texto. Se te enseñarán técnicas de ajuste y formateo de texto, así como la aplicación de efectos y estilos especiales a los caracteres y a los bloques de texto. En el cuarto tema, nos centraremos en el manejo de colores y degradados. Aprenderás a crear paletas de colores, aplicar colores a formas y trazos, y utilizar herramientas de mezcla de colores. Se te enseñarán técnicas de creación y aplicación de degradados para dar profundidad y dimensión a tus diseños. En el último tema, nos adentraremos en la creación de efectos y estilos especiales. Aprenderás a utilizar herramientas y efectos como sombras, desenfoques y distorsiones para agregar elementos visuales interesantes a tus diseños. Se te enseñarán técnicas de aplicación de estilos gráficos, efectos de iluminación y creación de ilustraciones tridimensionales.",
+    "aprendizaje": "podrán crear ilustraciones, gráficos y diseños vectoriales de alta calidad, utilizando técnicas avanzadas de dibujo, manipulación de formas, manejo de texto, color y efectos especiales.",
+    "requisitos": "No se necesitan conocimientos previos.",
     "img":"/illustrator.jpeg",
-    "cupos":19,
+    "precio":12000,
+    "cupos":20,
+    "cantClases": 10,
     "categoria":"diseño",
     "tema1":"Introducción a Adobe Illustrator y su entorno de trabajo",
     "tema2":"Herramientas de dibujo y manipulación de formas",
     "tema3":"Trabajo con texto y tipografía",
     "tema4":"Manejo de colores y degradados",
-    "tema5":"Creación de efectos y estilos especiales"
+    "tema5":"Creación de efectos y estilos especiales",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 19,
     "nombre": "Creación de animaciones",
-    "descripcion": "Aprende a crear animaciones profesionales con After Effects. Explora las herramientas y técnicas para dar vida a tus diseños, agregar efectos visuales y crear composiciones audiovisuales impactantes.",
-    "resumen":"En este curso descubrirás las posibilidades creativas de After Effects. Aprenderás a utilizar las herramientas de animación, las capas de efectos, los ajustes de tiempo y las técnicas de composición para crear animaciones dinámicas y visualmente atractivas.",
-    "precio":15000,
+    "resumen": "Aprende a crear animaciones profesionales con After Effects. Explora las herramientas y técnicas para dar vida a tus diseños, agregar efectos visuales y crear composiciones audiovisuales impactantes.",
+    "descripcion": "El curso de Creación de Animaciones te proporcionará los conocimientos y habilidades necesarios para utilizar Adobe After Effects y crear animaciones profesionales y de alta calidad. Aprenderás desde los conceptos básicos hasta técnicas avanzadas para animar propiedades, utilizar efectos visuales y crear composiciones dinámicas. En el primer tema, se te introducirá a After Effects y su interfaz de usuario. Aprenderás a familiarizarte con la disposición de paneles y herramientas, así como a configurar tu espacio de trabajo de acuerdo a tus preferencias. Se te enseñarán los conceptos básicos de navegación y visualización de la línea de tiempo, así como la importación de archivos y la creación de proyectos. En el segundo tema, nos enfocaremos en la animación de propiedades y capas en After Effects. Aprenderás a utilizar keyframes para animar propiedades como posición, escala, rotación y opacidad. Se te enseñarán técnicas de interpolación y easing para lograr movimientos suaves y naturales. También aprenderás a trabajar con capas y a organizarlas en la línea de tiempo. En el tercer tema, nos adentraremos en el uso de efectos visuales y transiciones. Aprenderás a aplicar efectos preestablecidos y personalizados a tus capas, como desenfoques, brillos y distorsiones. Se te enseñarán técnicas para crear transiciones suaves entre diferentes elementos y escenas en tus animaciones. En el cuarto tema, nos centraremos en la composición de elementos y la creación de secuencias. Aprenderás a combinar diferentes elementos, como imágenes, videos y texto, para crear composiciones complejas. Se te enseñarán técnicas de enmascaramiento y recorte para controlar la visibilidad y la interacción entre los elementos. También aprenderás a crear secuencias de animación mediante el uso de la línea de tiempo y la organización de capas. En el último tema, nos adentraremos en la exportación y el renderizado de animaciones. Aprenderás a configurar los ajustes de salida y a exportar tus animaciones en diferentes formatos de video. Se te enseñarán técnicas para optimizar la calidad y el tamaño de archivo de tus animaciones. También aprenderás a utilizar el renderizado por lotes para acelerar el proceso de renderizado de proyectos complejos.",
+    "aprendizaje": "podrán animar propiedades y capas, utilizar efectos visuales y transiciones, componer elementos y crear secuencias dinámicas, así como exportar y renderizar sus animaciones en diferentes formatos.",
+    "requisitos": "No se requieren conocimientos previos para realizar este curso.",
     "img":"/animaciones.jpeg",
-    "cupos":12,
+    "precio":15000,
+    "cupos":10,
+    "cantClases": 12,
     "categoria":"diseño",
     "tema1":"Introducción a After Effects y su interfaz de usuario",
     "tema2":"Animación de propiedades y capas en After Effects",
     "tema3":"Uso de efectos visuales y transiciones",
     "tema4":"Composición de elementos y creación de secuencias",
-    "tema5":"Exportación y renderizado de animaciones"
+    "tema5":"Exportación y renderizado de animaciones",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 20,
     "nombre": "Diseño gráfico",
-    "descripcion": "Domina las herramientas y técnicas avanzadas de diseño gráfico con CorelDRAW. Aprende a crear ilustraciones complejas, manipular imágenes, trabajar con texto y aplicar efectos especiales.",
-    "resumen":"En este curso avanzado de CorelDRAW, profundizarás en el uso de las herramientas y funciones del programa. Dominarás las técnicas de diseño avanzadas, la manipulación de imágenes, la creación de composiciones complejas y la aplicación de efectos especiales.",
-    "precio":17000,
+    "resumen": "Domina las herramientas y técnicas avanzadas de diseño gráfico con CorelDRAW. Aprende a crear ilustraciones complejas, manipular imágenes, trabajar con texto y aplicar efectos especiales.",
+    "descripcion": "El curso de Diseño gráfico te brinda la oportunidad de sumergirte en el apasionante mundo del diseño visual y adquirir habilidades en el uso de CorelDRAW, una herramienta líder en la industria. Durante el curso, explorarás las diversas facetas del diseño gráfico, desde los conceptos fundamentales hasta las técnicas avanzadas, para crear composiciones y diseños impactantes. En el primer tema, te familiarizarás con CorelDRAW y su interfaz de usuario. Aprenderás a navegar por las distintas herramientas, paneles y paletas de CorelDRAW, y descubrirás cómo configurar tu espacio de trabajo según tus necesidades. Además, conocerás las principales funciones y características de la aplicación. En el segundo tema, nos adentraremos en el diseño avanzado de ilustraciones y composiciones complejas. Aprenderás a utilizar las herramientas de dibujo y manipulación de formas para crear elementos gráficos personalizados. Explorarás técnicas de organización y estructuración de elementos visuales, así como el uso de capas para gestionar y organizar tus diseños de manera eficiente. En el tercer tema, nos centraremos en la manipulación de imágenes y el retoque fotográfico en CorelDRAW. Aprenderás a importar imágenes a tu proyecto, realizar ajustes de color y contraste, aplicar efectos especiales y utilizar herramientas de retoque para mejorar la calidad y apariencia de tus fotografías. Además, descubrirás cómo combinar ilustraciones y fotografías para crear composiciones visualmente impactantes. El cuarto tema se enfocará en el uso de efectos especiales y estilos avanzados. Aprenderás a aplicar efectos de sombra, resplandor, transparencia y otros efectos visuales para añadir profundidad y realismo a tus diseños. Además, explorarás cómo crear estilos personalizados y guardarlos para su uso posterior, lo que te permitirá ahorrar tiempo y mantener una coherencia visual en tus proyectos. En el quinto y último tema, nos sumergiremos en el trabajo con texto y tipografía avanzada en CorelDRAW. Aprenderás a utilizar las herramientas de texto para crear títulos, párrafos y elementos tipográficos llamativos. Explorarás opciones de formato, como la elección de fuentes, el espaciado de letras y la alineación, para lograr una composición equilibrada y atractiva. También aprenderás a aplicar efectos especiales a tus textos, como sombras y contornos, para resaltarlos en tus diseños.",
+    "aprendizaje": "serás capaz de utilizar las herramientas básicas y avanzadas de CorelDRAW, diseñar ilustraciones y composiciones complejas, retocar imágenes, aplicar efectos especiales, estilos y tipografía avanzada en tus diseños.",
+    "requisitos": "Es recomendable tener familiaridad con el entorno de trabajo de una aplicación de diseño",
     "img":"/grafico.jpeg",
-    "cupos":8,
+    "precio":17000,
+    "cupos":10,
+    "cantClases": 15,
     "categoria":"diseño",
     "tema1":"Herramientas básicas y conceptos fundamentales de CorelDRAW",
     "tema2":"Diseño avanzado de ilustraciones y composiciones complejas",
     "tema3":"Manipulación de imágenes y retoque fotográfico en CorelDRAW",
     "tema4":"Uso de efectos especiales y estilos avanzados",
-    "tema5":"Trabajo con texto y tipografía avanzada en CorelDRAW"
+    "tema5":"Trabajo con texto y tipografía avanzada en CorelDRAW",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 21,
     "nombre": "Inglés básico",
-    "descripcion": "Aprende los conceptos y vocabulario básico del inglés técnico para comunicarte en entornos profesionales. Mejora tus habilidades de lectura, escritura, escucha y expresión oral en situaciones relacionadas con tu área de especialización.",
-    "resumen":"En este curso adquirirás las bases del inglés técnico, incluyendo términos específicos, expresiones comunes y estructuras gramaticales utilizadas en tu campo profesional. Mejorarás tu capacidad para comprender y comunicarte de manera efectiva en entornos laborales.",
-    "precio":10000,
+    "resumen": "Aprende los conceptos y vocabulario básico del inglés técnico para comunicarte en entornos profesionales. Mejora tus habilidades de lectura, escritura, escucha y expresión oral en situaciones relacionadas con tu área de especialización.",
+    "descripcion":"El curso de Inglés básico está diseñado para brindarte los fundamentos necesarios para comunicarte en inglés en un entorno técnico. Aprenderás el vocabulario esencial y las estructuras gramaticales básicas que te permitirán comprender y expresarte en situaciones profesionales. En el primer tema, te introducirás al inglés técnico y aprenderás vocabulario básico relacionado con tu área de interés. Explorarás términos y frases comunes utilizados en contextos profesionales, así como también aprenderás a presentarte y comunicarte de manera efectiva en un entorno de trabajo en inglés. En el segundo tema, nos enfocaremos en la gramática y las estructuras fundamentales del inglés técnico. Aprenderás reglas gramaticales básicas, como la formación de oraciones, el uso de tiempos verbales y la estructura de preguntas y respuestas. También explorarás el uso de adjetivos, adverbios y preposiciones en contextos técnicos. El tercer tema se centrará en el desarrollo de habilidades de lectura y comprensión de textos técnicos. Aprenderás estrategias de lectura para identificar información relevante, comprender instrucciones y extraer significado de textos técnicos especializados. También practicarás la lectura de documentos, manuales y artículos relacionados con tu campo de interés. En el siguiente tema, nos enfocaremos en la expresión oral en situaciones profesionales. Aprenderás frases y expresiones útiles para participar en reuniones, presentaciones y conversaciones telefónicas en inglés. Practicarás la pronunciación y la entonación correctas, así como también desarrollarás habilidades para expresar opiniones, hacer preguntas y mantener conversaciones en un entorno de trabajo. El tema cinco se enfocará en la escritura de documentos técnicos simples. Aprenderás a redactar correos electrónicos, informes y otros documentos técnicos básicos en inglés. Explorarás la estructura de estos documentos y aprenderás a utilizar un lenguaje claro y conciso para transmitir información de manera efectiva.",
+    "aprendizaje": "serás capaz de comprender y utilizar vocabulario técnico básico, aplicar estructuras gramaticales simples, leer y comprender textos técnicos, expresarte oralmente en situaciones profesionales y escribir documentos técnicos simples.",
+    "requisitos": "No se requieren conocimientos previos de inglés. Este curso está diseñado para principiante.",
     "img":"/ingles1.jpeg",
-    "cupos":16,
+    "precio":10000,
+    "cupos":20,
+    "cantClases":10,
     "categoria":"idiomas",
     "tema1":"Introducción al inglés técnico y vocabulario básico",
     "tema2":"Gramática y estructuras fundamentales en inglés técnico",
     "tema3":"Habilidades de lectura y comprensión de textos técnicos",
     "tema4":"Expresión oral en situaciones profesionales",
-    "tema5":"Escritura de documentos técnicos simples"
+    "tema5":"Escritura de documentos técnicos simples",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 22,
     "nombre": "Inglés intermedio",
-    "descripcion": "Mejora tus habilidades de comunicación en inglés técnico a un nivel intermedio. Amplía tu vocabulario, perfecciona tu gramática y practica la comprensión auditiva y la expresión oral en situaciones profesionales.",
-    "resumen":"En este curso fortalecerás tus habilidades de lectura, escritura y conversación en inglés técnico. Te familiarizarás con términos y expresiones más avanzadas utilizadas en tu área de especialización, y aprenderás a comunicarte con mayor fluidez y precisión.",
-    "precio":12000,
+    "resumen": "Mejora tus habilidades de comunicación en inglés técnico a un nivel intermedio. Amplía tu vocabulario, perfecciona tu gramática y practica la comprensión auditiva y la expresión oral en situaciones profesionales.",
+    "descripcion": "El curso de Inglés intermedio está diseñado para ayudarte a mejorar tus habilidades de comunicación en inglés técnico. A medida que avanzas en el curso, ampliarás tu vocabulario técnico, dominarás la gramática avanzada y desarrollarás habilidades de comprensión auditiva, conversación y redacción en un entorno profesional. En el primer tema, te enfocarás en la ampliación del vocabulario técnico y en el aprendizaje de expresiones idiomáticas comunes en inglés. Aprenderás términos específicos de tu campo de interés y explorarás expresiones y frases idiomáticas que te ayudarán a comunicarte de manera más efectiva en un entorno profesional. En el segundo tema, nos adentraremos en la gramática avanzada para la comunicación técnica. Aprenderás reglas gramaticales más complejas, como el uso de tiempos verbales perfectos, condicionales y voz pasiva. Además, explorarás estructuras gramaticales específicas para la redacción de informes técnicos y la comunicación escrita en un contexto profesional. El tercer tema se centrará en la comprensión auditiva de discursos y presentaciones en inglés técnico. Mejorarás tus habilidades de escucha a través de la práctica de discursos, charlas y presentaciones relacionadas con tu área de interés. Aprenderás a identificar información clave, captar el contexto y comprender conceptos técnicos presentados de forma oral. En el siguiente tema, nos enfocaremos en las conversaciones y negociaciones profesionales en inglés. Practicarás situaciones de diálogo y negociación en un entorno profesional, como reuniones de trabajo, llamadas telefónicas y discusiones comerciales. Aprenderás a expresar tus ideas, argumentar y persuadir de manera efectiva en inglés. El tema cinco se centrará en la redacción de informes y documentos técnicos. Aprenderás a redactar informes técnicos, documentos de investigación y otros tipos de escritos profesionales en inglés. Mejorarás tus habilidades de redacción, incluyendo la organización de ideas, el uso de vocabulario técnico preciso y la estructura adecuada de los documentos.",
+    "aprendizaje": "serás capaz de ampliar tu vocabulario técnico, aplicar gramática avanzada, comprender discursos y presentaciones en inglés, participar en conversaciones y negociaciones profesionales, y redactar informes y documentos técnicos de manera efectiva.",
+    "requisitos": "Se recomienda tener conocimientos básicos de inglés.",
     "img":"/ingles2.jpeg",
-    "cupos":11,
+    "precio":12000,
+    "cupos":10,
+    "cantClases": 10,
     "categoria":"idiomas",
     "tema1":"Ampliación del vocabulario técnico y expresiones idiomáticas",
     "tema2":"Gramática avanzada para la comunicación técnica",
     "tema3":"Comprensión auditiva de discursos y presentaciones en inglés técnico",
     "tema4":"Conversaciones y negociaciones profesionales",
-    "tema5":"Redacción de informes y documentos técnicos"
+    "tema5":"Redacción de informes y documentos técnicos",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 23,
     "nombre": "Inglés avanzado",
-    "descripcion": "Domina el inglés técnico a un nivel avanzado y desarrolla una sólida competencia comunicativa en tu campo profesional. Amplía tu vocabulario especializado, mejora tu comprensión auditiva y perfecciona tus habilidades de escritura y expresión oral.",
-    "resumen":" En este curso avanzado de inglés técnico, profundizarás en áreas específicas de tu campo profesional. Aprenderás a expresarte con precisión en discursos, presentaciones y escritos técnicos, y adquirirás fluidez en la comprensión de materiales especializados.",
-    "precio":15000,
+    "resumen": "Domina el inglés técnico a un nivel avanzado y desarrolla una sólida competencia comunicativa en tu campo profesional. Amplía tu vocabulario especializado, mejora tu comprensión auditiva y perfecciona tus habilidades de escritura y expresión oral.",
+    "descripcion": "El curso de Inglés avanzado está diseñado para aquellos que desean perfeccionar sus habilidades de comunicación en inglés técnico en un nivel avanzado. A medida que progreses en el curso, te sumergirás en la terminología especializada de tu campo profesional, mejorarás tus habilidades de lectura y comprensión de textos especializados, y perfeccionarás tu capacidad de expresión oral y escrita en un entorno académico o científico. En el primer tema, te enfocarás en la terminología especializada en tu campo profesional. Aprenderás vocabulario técnico específico de tu área de interés y te familiarizarás con los términos y expresiones más utilizados en tu industria. Explorarás cómo utilizar de manera precisa y adecuada el lenguaje técnico en tus comunicaciones orales y escritas. En el segundo tema, nos adentraremos en discursos y presentaciones técnicas avanzadas. Practicarás la expresión oral en contextos profesionales más complejos, como conferencias, seminarios o presentaciones especializadas. Aprenderás técnicas de presentación efectivas, cómo estructurar y transmitir ideas de manera clara, y cómo mantener el interés y la atención del público. El tercer tema se centrará en la lectura y comprensión de textos especializados. Mejorarás tus habilidades de lectura crítica y comprensión de textos académicos, científicos y técnicos. Aprenderás a identificar la información clave, analizar argumentos y extraer conclusiones en base a textos complejos relacionados con tu campo de estudio o trabajo. En el siguiente tema, nos enfocaremos en el debate y la argumentación en inglés técnico. Practicarás la participación en discusiones y debates sobre temas técnicos y científicos. Aprenderás a expresar opiniones, argumentar y rebatir ideas de manera clara y persuasiva. También trabajarás en el desarrollo de habilidades de escucha activa y la capacidad de responder de manera efectiva a las opiniones de los demás. El tema cinco se centrará en la escritura académica y científica en inglés. Aprenderás a redactar ensayos, informes y documentos académicos o científicos de alta calidad en inglés. Mejorarás tus habilidades de escritura, incluyendo la estructura del texto, el uso de referencias bibliográficas y la claridad en la exposición de ideas y argumentos.",
+    "aprendizaje": "serás capaz de utilizar terminología especializada en tu campo profesional, realizar discursos y presentaciones técnicas avanzadas, comprender textos especializados de forma crítica, participar en debates y argumentaciones efectivas, y redactar textos académicos o científicos con fluidez y precisión.",
+    "requisitos": "Se requiere tener un nivel intermedio-alto de inglés. Este curso está diseñado para estudiantes que deseen alcanzar un nivel avanzado de comunicación en inglés técnico y deseen mejorar sus habilidades en un entorno académico o científico.",
     "img":"/ingles3.jpeg",
-    "cupos":7,
+    "precio":15000,
+    "cupos":10,
+    "cantClases": 10,
     "categoria":"idiomas",
     "tema1":"Terminología especializada en el campo profesional",
     "tema2":"Discursos y presentaciones técnicas avanzadas",
     "tema3":"Lectura y comprensión de textos especializados",
     "tema4":"Debate y argumentación en inglés técnico",
-    "tema5":"Escritura académica y científica en inglés"
+    "tema5":"Escritura académica y científica en inglés",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 24,
     "nombre": "Japonés para principiantes",
-    "descripcion": "Aprende los fundamentos del idioma japonés, incluyendo el vocabulario básico, la gramática elemental y las habilidades de lectura y escritura necesarias para comunicarte en situaciones cotidianas.",
-    "resumen":"En este curso introductorio de japonés, adquirirás los conocimientos básicos para comunicarte en el idioma. Aprenderás expresiones comunes, el sistema de escritura hiragana y katakana, y las estructuras gramaticales fundamentales para establecer conversaciones simples en japonés.",
-    "precio":13000,
+    "resumen": "Aprende los fundamentos del idioma japonés, incluyendo el vocabulario básico, la gramática elemental y las habilidades de lectura y escritura necesarias para comunicarte en situaciones cotidianas.",
+    "descripcion": "El curso de Japonés para principiantes está diseñado para aquellos que desean adquirir los fundamentos del idioma japonés y desarrollar habilidades básicas de comunicación. A medida que progreses en el curso, aprenderás el alfabeto hiragana y katakana, ampliarás tu vocabulario con palabras y expresiones comunes, dominarás la gramática elemental y las estructuras de oraciones simples, practicarás conversaciones cotidianas y situaciones prácticas, y desarrollarás habilidades básicas de lectura y escritura en japonés. En el primer tema, te enfocarás en el aprendizaje del alfabeto hiragana y katakana. Estos dos sistemas de escritura son fundamentales para leer y escribir en japonés. Aprenderás los caracteres básicos, su pronunciación y su escritura. Además, practicarás la lectura y escritura de palabras y frases utilizando hiragana y katakana. En el segundo tema, nos adentraremos en el vocabulario básico y las expresiones comunes en japonés. Aprenderás palabras y frases útiles para comunicarte en situaciones cotidianas, como presentarte a ti mismo, pedir indicaciones, hacer preguntas simples y expresar tus gustos y preferencias. También explorarás aspectos culturales y sociales asociados con el uso del lenguaje japonés. El tercer tema se centrará en la gramática elemental y las estructuras de oraciones simples en japonés. Aprenderás la estructura básica de las oraciones, incluyendo la conjugación de verbos y adjetivos, el uso de partículas y la formación de preguntas y negaciones. A medida que avances, podrás construir oraciones simples y comprender su significado. En el siguiente tema, practicaremos conversaciones cotidianas y situaciones prácticas en japonés. Te familiarizarás con diálogos y escenarios comunes, como ordenar comida en un restaurante, ir de compras, hacer preguntas en una tienda, y tener conversaciones simples con nativos japoneses. A través de actividades de role-play y prácticas interactivas, mejorarás tu habilidad para comunicarte de manera efectiva en situaciones prácticas. El tema cinco se enfocará en la lectura y escritura de textos básicos en japonés. Aprenderás a reconocer y leer kanji (caracteres chinos) básicos, así como a comprender textos simples en japonés, como carteles, letreros o mensajes escritos. También trabajarás en la escritura de textos básicos, como saludos, mensajes cortos y descripciones sencillas.",
+    "aprendizaje": "serás capaz de leer y escribir en hiragana y katakana, comprender y utilizar vocabulario básico y expresiones comunes, construir oraciones simples, participar en conversaciones cotidianas y comprender textos básicos en japonés.",
+    "requisitos": "No se requieren conocimientos previos de japonés. Este curso está diseñado para principiantes que deseen aprender el idioma desde cero.",
     "img":"/japones.jpeg",
-    "cupos":4,
+    "precio":13000,
+    "cupos":5,
+    "cantClases": 10,
     "categoria":"idiomas",
     "tema1":"Aprendizaje del alfabeto hiragana y katakana",
     "tema2":"Vocabulario básico y expresiones comunes en japonés",
     "tema3":"Gramática elemental y estructuras de oraciones simples",
     "tema4":"Conversaciones cotidianas y situaciones prácticas",
-    "tema5":"Lectura y escritura de textos básicos en japonés"
+    "tema5":"Lectura y escritura de textos básicos en japonés",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 25,
     "nombre": "Ruso para principiantes",
-    "descripcion": "Descubre los fundamentos del idioma ruso, desde el vocabulario básico hasta la gramática elemental. Aprende a comunicarte en situaciones cotidianas, a leer y escribir en ruso.",
-    "resumen":" En este curso de ruso básico, te familiarizarás con el alfabeto cirílico, aprenderás palabras y frases esenciales, y adquirirás habilidades básicas de conversación, lectura y escritura. Desarrollarás una comprensión general del idioma y estarás preparado para avanzar en tu aprendizaje.",
-    "precio":13000,
+    "resumen": "Descubre los fundamentos del idioma ruso, desde el vocabulario básico hasta la gramática elemental. Aprende a comunicarte en situaciones cotidianas, a leer y escribir en ruso.",
+    "descripcion": "El curso de Ruso para principiantes está diseñado para aquellos que deseen aprender los fundamentos del idioma ruso y adquirir habilidades básicas de comunicación. A medida que progreses en el curso, aprenderás el alfabeto cirílico y su pronunciación, ampliarás tu vocabulario con palabras y frases de uso frecuente, dominarás la gramática elemental y la construcción de oraciones simples, practicarás la comunicación en situaciones cotidianas y sociales, y desarrollarás habilidades básicas de lectura y escritura en ruso. En el primer tema, te familiarizarás con el alfabeto cirílico y aprenderás su pronunciación. Aprenderás a reconocer y escribir las letras cirílicas, así como a pronunciar correctamente los sonidos del idioma ruso. También practicarás la lectura y escritura de palabras y frases simples en ruso utilizando el alfabeto cirílico. En el segundo tema, nos enfocaremos en el vocabulario básico y las frases de uso frecuente en ruso. Aprenderás palabras y expresiones esenciales para comunicarte en situaciones cotidianas, como presentarte a ti mismo, pedir indicaciones, hacer preguntas simples y expresar tus gustos y preferencias. Además, explorarás aspectos culturales y sociales asociados con el idioma ruso. El tercer tema se centrará en la gramática elemental y la construcción de oraciones simples en ruso. Aprenderás la estructura básica de las oraciones, incluyendo la conjugación de verbos, la formación de casos y la utilización de pronombres y adjetivos. A medida que avances, podrás construir oraciones simples y comprender su significado. En el siguiente tema, practicaremos la comunicación en situaciones cotidianas y sociales en ruso. Te familiarizarás con diálogos y escenarios comunes, como pedir comida en un restaurante, ir de compras, hacer preguntas en una tienda y tener conversaciones simples con hablantes nativos de ruso. A través de actividades de role-play y prácticas interactivas, mejorarás tu habilidad para comunicarte de manera efectiva en situaciones prácticas. El tema cinco se enfocará en la lectura y escritura básica en ruso. Aprenderás a reconocer y leer palabras y frases simples en ruso, así como a escribir textos básicos, como saludos, mensajes cortos y descripciones sencillas.",
+    "aprendizaje": "serás capaz de leer y escribir en alfabeto cirílico, comprender y utilizar vocabulario básico y frases de uso frecuente, construir oraciones simples, participar en comunicaciones cotidianas y sociales, y tener una comprensión básica de lectura y escritura en ruso",
+    "requisitos": "No se requieren conocimientos previos de ruso. Este curso está diseñado para principiantes que deseen aprender el idioma desde cero.",
     "img":"/ruso.jpeg",
-    "cupos":4,
+    "precio":13000,
+    "cupos":5,
+    "cantClases":10,
     "categoria":"idiomas",
     "tema1":"Alfabeto cirílico y pronunciación en ruso",
     "tema2":"Vocabulario básico y frases de uso frecuente",
     "tema3":"Gramática elemental y construcción de oraciones simples",
     "tema4":"Comunicación en situaciones cotidianas y sociales",
-    "tema5":"Lectura y escritura básica en ruso"
+    "tema5":"Lectura y escritura básica en ruso",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 26,
     "nombre": "Microsoft Office",
-    "descripcion": "Aprende a utilizar las aplicaciones de Microsoft Office, como Excel, Word y PowerPoint, para mejorar tu productividad y comunicación en el entorno laboral.",
-    "resumen":"En este curso de Microsoft Office, explorarás las principales herramientas y funciones de Excel, Word y PowerPoint. Aprenderás a crear y editar documentos de texto, realizar cálculos y análisis de datos, y diseñar presentaciones impactantes.",
-    "precio":10000,
+    "resumen": "Aprende a utilizar las aplicaciones de Microsoft Office, como Excel, Word y PowerPoint, para mejorar tu productividad y comunicación en el entorno laboral.",
+    "descripcion": "El curso de Microsoft Office es ideal para aquellos que desean adquirir habilidades prácticas en el uso de las aplicaciones de Microsoft Office, una suite de software ampliamente utilizada en entornos profesionales y académicos. A lo largo del curso, te familiarizarás con las herramientas y funciones clave de Microsoft Office, incluyendo Word, Excel, PowerPoint y técnicas para optimizar tu productividad. En el primer tema, recibirás una introducción completa a Microsoft Office. Aprenderás sobre las diferentes aplicaciones que componen la suite, su importancia en el entorno laboral y académico, y cómo utilizar eficientemente la interfaz de usuario para acceder a las herramientas y funciones principales. El segundo tema se centrará en el procesador de texto Microsoft Word. Aprenderás a crear, formatear y editar documentos de texto de manera profesional. Explorarás las herramientas de edición, formato de texto, creación de tablas, uso de estilos y plantillas, inserción de imágenes y gráficos, y técnicas para mejorar la productividad en la creación de documentos. En el tercer tema, nos enfocaremos en el uso de hojas de cálculo con Microsoft Excel. Aprenderás a trabajar con datos, crear fórmulas y funciones, realizar operaciones matemáticas y estadísticas, crear gráficos y tablas dinámicas, y utilizar herramientas avanzadas para el análisis de datos y la automatización de tareas. El cuarto tema se centrará en la creación de presentaciones impactantes con Microsoft PowerPoint. Aprenderás a diseñar diapositivas profesionales, utilizar efectos visuales, agregar animaciones y transiciones, incluir contenido multimedia, y presentar tus ideas de manera efectiva. También explorarás técnicas para la organización y estructuración de presentaciones. En el último tema, aprenderás a optimizar tu productividad con Microsoft Office. Descubrirás consejos y trucos para agilizar tu trabajo, utilizar herramientas de colaboración, gestionar archivos y documentos de manera eficiente, y aprovechar al máximo las características y funciones avanzadas de Microsoft Office.",
+    "aprendizaje": "serás capaz de crear y editar documentos profesionales con Word, realizar cálculos y análisis de datos con Excel, diseñar presentaciones impactantes con PowerPoint, y optimizar tu productividad en el entorno de trabajo utilizando las herramientas y funciones de Microsoft Office.",
+    "requisitos": "No se necesitan conocimientos previos.",
     "img":"/office.jpeg",
+    "precio":10000,
     "cupos":20,
+    "cantClases":12,
     "categoria":"herramientas",
     "tema1":"Introducción a Microsoft Office",
     "tema2":"Procesador de texto con Word",
     "tema3":"Hojas de cálculo con Excel",
     "tema4":"Presentaciones impactantes con PowerPoint",
-    "tema5":"Optimización de la productividad con Office"
+    "tema5":"Optimización de la productividad con Office",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }, {
     "id": 27,
     "nombre": "GitHub",
-    "descripcion": "Aprende a utilizar GitHub, una plataforma de control de versiones y colaboración, para gestionar tus proyectos de desarrollo de software y trabajar de manera eficiente en equipo.",
-    "resumen":"En este curso de GitHub para principiantes, te familiarizarás con los conceptos básicos de control de versiones y aprenderás a utilizar GitHub para gestionar tus proyectos. Aprenderás a crear repositorios, realizar commits, manejar ramas, colaborar con otros desarrolladores mediante solicitudes de extracción y resolver conflictos.",
-    "precio":8000,
+    "resumen": "Aprende a utilizar GitHub, una plataforma de control de versiones y colaboración, para gestionar tus proyectos de desarrollo de software y trabajar de manera eficiente en equipo.",
+    "descripcion": "El curso de GitHub está diseñado para aquellos que desean aprender a utilizar Git y GitHub para el control de versiones y la colaboración en proyectos de desarrollo de software. A lo largo del curso, explorarás los conceptos fundamentales de Git y aprenderás a utilizar la plataforma GitHub para gestionar repositorios, colaborar con otros desarrolladores y llevar un flujo de trabajo efectivo en el desarrollo de proyectos. En el primer tema, recibirás una introducción completa a Git y GitHub. Aprenderás sobre la importancia del control de versiones en el desarrollo de software, los conceptos básicos de Git, y cómo GitHub se integra con Git para proporcionar un entorno colaborativo en línea. También explorarás las ventajas de utilizar GitHub en proyectos de desarrollo. En el segundo tema, te familiarizarás con la configuración de Git y GitHub. Aprenderás a instalar y configurar Git en tu máquina, crear una cuenta en GitHub, y establecer la conexión entre Git y GitHub. También explorarás las diferentes opciones de configuración y personalización disponibles en Git y GitHub para adaptarlos a tus necesidades. El tercer tema se enfocará en la gestión de repositorios. Aprenderás a crear un repositorio en GitHub, clonar repositorios existentes, realizar cambios en los archivos y realizar confirmaciones (commits) en Git. También explorarás cómo trabajar con ramas (branches) en Git y cómo utilizar GitHub para almacenar y organizar tu código en repositorios remotos. En el cuarto tema, nos adentraremos en el trabajo con ramas y la colaboración en GitHub. Aprenderás a crear ramas en Git, fusionar ramas y resolver conflictos, y colaborar con otros desarrolladores mediante solicitudes de extracción (pull requests) en GitHub. También explorarás las herramientas y funcionalidades de GitHub para revisar y comentar el código de otros colaboradores. En el último tema, te sumergirás en el flujo de trabajo con GitHub. Aprenderás a utilizar las funcionalidades avanzadas de GitHub, como los proyectos, problemas (issues) y wikis, para gestionar tareas, reportar y solucionar problemas, y documentar tu proyecto. También explorarás técnicas para mantener un flujo de trabajo eficiente y productivo utilizando las características de GitHub.",
+    "aprendizaje": "serás capaz de gestionar repositorios de código, colaborar con otros desarrolladores, llevar un flujo de trabajo efectivo utilizando ramas y solicitudes de extracción, y utilizar las herramientas y funcionalidades avanzadas de GitHub para gestionar proyectos de desarrollo de software.",
+    "requisitos": "No se requieren conocimientos previos de Git y GitHub.",
     "img":"/github.jpeg",
+    "precio":8000,
     "cupos":5,
+    "cantClases": 10,
     "categoria":"herramientas",
     "tema1":"Introducción a Git y GitHub",
     "tema2":"Configuración de Git y GitHub",
     "tema3":"Gestión de repositorios",
     "tema4":"Ramas y colaboración",
-    "tema5":"Flujo de trabajo con GitHub"
+    "tema5":"Flujo de trabajo con GitHub",
+    "fechas": [
+      {
+        "fecha": "2023-06-13",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-08-15",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      },
+      {
+        "fecha": "2023-10-17",
+        "horarios": [
+          { "hora": "09:00", "cupos": 10 },
+          { "hora": "17:00", "cupos": 10 },
+          { "hora": "20:00", "cupos": 10 }
+        ]
+      }
+    ]
   }]
+  

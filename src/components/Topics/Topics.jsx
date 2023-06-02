@@ -5,7 +5,7 @@ import './Topics.scss'
 function Topics({item}) {
   return (
     <div>
-      <h2 className='titulo-temario'>Temario:</h2>
+      <h3 className='titulo-temario'>Temario:</h3>
       <ListGroup as="ol" numbered className="topic">
         <ListGroup.Item as="li" className="topic-item">{item.tema1}</ListGroup.Item>
         <ListGroup.Item as="li" className="topic-item">{item.tema2}</ListGroup.Item>

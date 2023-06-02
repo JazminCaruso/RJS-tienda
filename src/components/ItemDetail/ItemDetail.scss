@@ -30,7 +30,7 @@ $accent-color: #e29b04;
     }
 
     img {
-      width: 28%;
+      width: 20%;
       flex-shrink: 0;
       max-height: auto;
       margin-bottom: 20px;
@@ -38,21 +38,13 @@ $accent-color: #e29b04;
       border: 2px solid #1d2d2d;
       margin: 2%;
     }
+
+    .detalles {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      background-color: $bgCardr-color;
+   }
   
-    .btn {
-      display: inline-block;
-      padding: 8px 16px;
-      background-color: $dark-color;
-      color: white;
-      text-decoration: none;
-      border-radius: 4px;
-      width:30%;
-      font-size: large;
-      font-weight:500;
-  
-      &:hover {
-        background-color: $accent-color;
-        color:white;
-      }
-    }
   }
+
