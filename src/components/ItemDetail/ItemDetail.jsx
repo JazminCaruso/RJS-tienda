@@ -11,9 +11,9 @@ const ItemDetail = ({ item }) => {
         <h2 className="titulo-curso">{item.nombre}</h2>
       </div>
       <div className="imagenes">
+        <img src={item.img1} alt={item.nombre} />
         <img src={item.img} alt={item.nombre} />
-        <img src={item.img} alt={item.nombre} />
-        <img src={item.img} alt={item.nombre} />
+        <img src={item.img2} alt={item.nombre} />
       </div>
       <div className="detalles">
         <Description item={item} />

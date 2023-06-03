@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react"
-import { pedirDatos } from "../../helpers/pedirDatos"
 import { useParams } from "react-router-dom"
 import ItemDetail from "../ItemDetail/ItemDetail"
 import Spinner from "../spinner/Spinner"
 import Error404 from "../../helpers/error"
+import { doc, getDoc } from "firebase/firestore"
+import { db } from '../../firebase/config'
 
 const ItemDetailContainer = () => {
     const [item, setItem] = useState(null)
@@ -14,17 +15,15 @@ const ItemDetailContainer = () => {
     useEffect(() => {
         setLoading(true)
 
-        pedirDatos()
-
-            .then((data) => {
-                const foundItem = data.find((el) => el.id === Number(id))
-                if (foundItem) {
-                    setItem(foundItem)
-                } else {
-                    console.log(`No se encontró ningún elemento con el ID ${id}`)
+        const docRef = doc(db, "productos", id)
+        getDoc(docRef)
+            .then((doc) => {
+                const _item = {
+                    id: doc.id,
+                    ...doc.data()
                 }
+                setItem(_item)
             })
-
             .catch((err) => console.log(err))
             .finally(() => setLoading(false))
     }, [])
