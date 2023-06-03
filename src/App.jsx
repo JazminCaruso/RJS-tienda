@@ -18,9 +18,9 @@ function App() {
         <CollapsibleExample></CollapsibleExample>
         <Routes>
           <Route path='/' element= { <ItemListContainer/> } />
-          <Route path='/categoria/:categoriaId' element= { <ItemListContainer/> } />
+          <Route path='/categories/:categoryId' element= { <ItemListContainer/> } />
           <Route path='/item/:id' element={ <ItemDetailContainer />} />
-          <Route path='/carrito' element={ <Cart />} />
+          <Route path='/cart' element={ <Cart />} />
           <Route path='*' element= { <Error404/> } />
         </Routes>
       </BrowserRouter>

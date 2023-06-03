@@ -19,11 +19,11 @@ function CollapsibleExample() {
             <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
                 <NavDropdown title="Categorías" id="collasible-nav-dropdown">
-                    <Link to='/categoria/programacion' className="navbar__link"><NavDropdown.Item href="#programacion">Programación</NavDropdown.Item></Link>
-                    <Link to='/categoria/marketing' className="navbar__link"><NavDropdown.Item href="#marketing-digital">Marketing digital</NavDropdown.Item></Link>
-                    <Link to='/categoria/diseño' className="navbar__link"><NavDropdown.Item href="#diseño-digital">Diseño digital</NavDropdown.Item></Link>
-                    <Link to='/categoria/idiomas' className="navbar__link"><NavDropdown.Item href="#idiomas">Idiomas</NavDropdown.Item></Link>
-                    <Link to='/categoria/herramientas' className="navbar__link"><NavDropdown.Item href="#herramientas">Herramientas</NavDropdown.Item></Link>
+                    <Link to='/categories/programacion' className="navbar__link"><NavDropdown.Item href="#programacion">Programación</NavDropdown.Item></Link>
+                    <Link to='/categories/marketing' className="navbar__link"><NavDropdown.Item href="#marketing-digital">Marketing digital</NavDropdown.Item></Link>
+                    <Link to='/categories/diseño' className="navbar__link"><NavDropdown.Item href="#diseño-digital">Diseño digital</NavDropdown.Item></Link>
+                    <Link to='/categories/idiomas' className="navbar__link"><NavDropdown.Item href="#idiomas">Idiomas</NavDropdown.Item></Link>
+                    <Link to='/categories/herramientas' className="navbar__link"><NavDropdown.Item href="#herramientas">Herramientas</NavDropdown.Item></Link>
                     </NavDropdown>
                     <Nav.Link className="itemNavbar" href="#contacto">Contacto</Nav.Link>
             </Nav>
@@ -58,11 +58,11 @@ const CollapsibleExample = () => {
             </div>
                 <nav className="navbar">
                     <Link to='/' className="navbar__link">Inicio  |</Link>
-                    <Link to='/categoria/programacion' className="navbar__link">Programación</Link>
-                    <Link to='/categoria/marketing' className="navbar__link">Marketing</Link>
-                    <Link to='/categoria/diseño' className="navbar__link">Diseño</Link>
-                    <Link to='/categoria/idiomas' className="navbar__link">Idiomas</Link>
-                    <Link to='/categoria/herramientas' className="navbar__link">Herramientas</Link>
+                    <Link to='/categories/programacion' className="navbar__link">Programación</Link>
+                    <Link to='/categories/marketing' className="navbar__link">Marketing</Link>
+                    <Link to='/categories/diseño' className="navbar__link">Diseño</Link>
+                    <Link to='/categories/idiomas' className="navbar__link">Idiomas</Link>
+                    <Link to='/categories/herramientas' className="navbar__link">Herramientas</Link>
                 </nav>
                 <CartWidget />
             </div>

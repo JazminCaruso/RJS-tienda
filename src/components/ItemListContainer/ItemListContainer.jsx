@@ -16,15 +16,15 @@ export const ItemListContainer = () => {
     const [loading, setLoading] = useState(true)
     const [setSearchParams] = useSearchParams();
 
-    const { categoriaId } = useParams()
+    const { categoryId } = useParams()
     const search = setSearchParams.get('search')
 
     useEffect(() => {
         setLoading(true)
 
-        const productosRef = collection(db, "productos")
-        const q = categoriaId
-                    ? query(productosRef, where("categoria", "==", categoriaId))
+        const productosRef = collection(db, "items")
+        const q = categoryId
+                    ? query(productosRef, where("category", "==", categoryId))
                     : productosRef
 
         getDocs(q)
@@ -40,7 +40,7 @@ export const ItemListContainer = () => {
             })
             .catch((err) => console.log(err))
             .finally(() => setLoading(false))
-        }, [categoriaId])
+        }, [categoryId])
 
     const list = search
     ? productos.filter((el) =>

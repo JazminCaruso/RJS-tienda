@@ -101,7 +101,7 @@ function Detail({ item }) {
       </ListGroup>
       {selectedTime && (
         inCart(item.id)
-          ? <Link className="boton" to="/carrito">Ver carrito</Link>
+          ? <Link className="boton" to="/cart">Ver carrito</Link>
           : <div className="botones">
               <Link className="boton" onClick={agregarAlCarrito} disabled={addedToCart}>Agregar al carrito</Link>
               <Link to="/" className="boton">Comprar ya</Link>
