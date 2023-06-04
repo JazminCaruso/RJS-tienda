@@ -30,11 +30,11 @@ const Register = () => {
                         <Form className="form">
                             <Field name="email" type="email" placeholder="Email" className="input form-control my-2"/>
                             <Field name="password" type="password" placeholder="Contraseña" className="input form-control my-2"/>
-                            <button className="btn" type="submit">Iniciar sesión</button>
-                            <Link to="/login" className="link" ><button className="btn" type="submit">Ya tengo una cuenta</button></Link>
+                            <button className="btn" type="submit">Listo, ingresar con mi nueva cuenta</button>
                         </Form>
                     )}
                 </Formik>
+                    <Link to="/login" className="link" ><button className="btn" type="submit">Ya tengo una cuenta</button></Link>
             </div>
         </div>
     )

@@ -1,3 +1,9 @@
+.ptexto {
+    font-size: larger;
+    margin: 2%;
+    text-align: justify;
+}
+
 .informacion {
     margin-left: 5%;
     margin-top: 3%;
@@ -17,10 +23,16 @@
     font-size: larger;
     margin-top: 3%;
     font-weight: 500;
+    margin-left: 2%;
+}
+
+.subrayado {
+    text-decoration: underline;
 }
 
 .contacto2 {
     font-size: larger;
     margin-bottom: 3%;
     font-weight: 500;
+    margin-left: 2%;
 }

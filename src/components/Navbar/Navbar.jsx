@@ -35,7 +35,7 @@ function CollapsibleExample() {
             {
                 user.logged 
                     ? <Nav>
-                        <button className='btn' onClick={logout}>Cerrar sesión</button>
+                        <button className='btn itemNavbar' onClick={logout}>Cerrar sesión</button>
                       </Nav>
                     : <Nav>
                         <Link to='/login' className="itemNavbar"><button className='btn'>Iniciar sesión</button></Link>

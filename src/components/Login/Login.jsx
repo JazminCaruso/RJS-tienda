@@ -31,10 +31,11 @@ const Login = () => {
                             <Field name="email" type="email" placeholder="Email" className="input form-control my-2"/>
                             <Field name="password" type="password" placeholder="Contraseña" className="input form-control my-2"/>
                             <button className="btn" type="submit">Iniciar sesión</button>
-                            <Link to="/register" className="link" ><button className="btn" type="submit">Crear cuenta</button></Link>
                         </Form>
                     )}
                 </Formik>
+                <Link to="/register" className="link" ><button className="btn" type="submit">Si todavía no tienes cuenta, create una!</button></Link>
+                
             </div>
         </div>
     )

@@ -35,7 +35,7 @@ const Cart = () => {
             <div className="details-container">
                 <p>Fecha de inicio: {item.fecha}</p>
                 <p>Horario: {item.hora}</p>
-                <p>Precio: {item.precio}</p>
+                <p>Precio: ${item.precio}</p>
             </div>
           </div>
           <Link to={`/item/${item.id}`} className="btn">Ver detalles del curso</Link>
