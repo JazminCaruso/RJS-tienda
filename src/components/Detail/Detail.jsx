@@ -104,7 +104,6 @@ function Detail({ item }) {
           ? <Link className="boton" to="/cart">Ver carrito</Link>
           : <div className="botones">
               <Link className="boton" onClick={agregarAlCarrito} disabled={addedToCart}>Agregar al carrito</Link>
-              <Link to="/" className="boton">Comprar ya</Link>
             </div>
       )}
     </div>

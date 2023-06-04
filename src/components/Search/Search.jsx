@@ -22,7 +22,7 @@ const Search = () => {
 
     return (
         <form onSubmit={handleSubmit} className="search d-flex">
-          <input ref={inputRef} type="text" placeholder="Escriba el nombre del curso que está buscando" className="form-control me-2" />
+          <input ref={inputRef} type="text" placeholder="Nombre del curso" className=" buscadpr form-control me-2" />
           <button type="submit" className="btn">Buscar</button>
         </form>
     );

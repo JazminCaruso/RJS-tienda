@@ -5,6 +5,7 @@ import Spinner from '../spinner/Spinner'
 import './ItemListContainer.scss'
 import { collection, getDocs, query, where } from 'firebase/firestore'
 import { db } from '../../firebase/config'
+import Error404 from '../../helpers/error'
 
 const normalizeString = (str) => {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -48,7 +49,13 @@ export const ItemListContainer = () => {
         )
     : productos;
 
-    const mensajeNoResultados = 'Lo sentimos, todavía no contamos con ese curso.';
+    if (!loading && categoryId && list.length === 0) {
+        return (
+            <div className="container my-5">
+              {( <Error404/> )}
+            </div>
+          );
+    }
 
     return (
         <div className="container my-5">
@@ -56,7 +63,7 @@ export const ItemListContainer = () => {
         loading 
         ? ( <Spinner /> ) 
         : list.length > 0 ? ( <ItemList items={list} /> ) 
-        : ( <h4>{mensajeNoResultados}</h4> )
+        : ( <Error404/> )
         }
         </div>
     );

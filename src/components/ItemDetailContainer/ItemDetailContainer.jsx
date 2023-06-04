@@ -18,11 +18,15 @@ const ItemDetailContainer = () => {
         const docRef = doc(db, "items", id)
         getDoc(docRef)
             .then((doc) => {
-                const _item = {
-                    id: doc.id,
-                    ...doc.data()
-                }
-                setItem(_item)
+                if (doc.exists()) {
+                    const _item = {
+                      id: doc.id,
+                      ...doc.data()
+                    };
+                    setItem(_item);
+                  } else {
+                    setItem(null);
+                  }
             })
             .catch((err) => console.log(err))
             .finally(() => setLoading(false))
@@ -41,7 +45,6 @@ const ItemDetailContainer = () => {
                 )}
         </div>
     )
-
 }
 
 export default ItemDetailContainer

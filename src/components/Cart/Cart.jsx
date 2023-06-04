@@ -3,10 +3,12 @@ import { CartContext } from "../../context/CartContext";
 import { Link } from "react-router-dom";
 import { BsTrash } from 'react-icons/bs';
 import "./Cart.scss"
+import { AuthContext } from "../../context/AuthContext";
 
 const Cart = () => {
-  const { cart, eliminarProducto, totalCompra, vaciarCarrito } =
-    useContext(CartContext);
+  const { cart, eliminarProducto, totalCompra, vaciarCarrito } = useContext(CartContext);
+
+  const { user } = useContext(AuthContext)
 
   if (cart.length === 0) {
     return (
@@ -32,7 +34,7 @@ const Cart = () => {
             </div>
             <div className="details-container">
                 <p>Fecha de inicio: {item.fecha}</p>
-                <p>Hora de inicio: {item.hora}</p>
+                <p>Horario: {item.hora}</p>
                 <p>Precio: {item.precio}</p>
             </div>
           </div>
@@ -46,7 +48,12 @@ const Cart = () => {
         <div className="botones">
           <button onClick={vaciarCarrito} className="btn boton2">Vaciar carrito</button>
           <Link to="/" className="btn boton2">Agregar otro curso</Link>
-          <Link to="/" className="btn boton2">Finalizar mi compra</Link>
+          {
+            user.logged 
+              ? <Link to="/checkout" className="btn boton2">Finalizar mi compra</Link>
+              : <p className="texto-final">¡Debe iniciar sesión para realizar la compra!</p>
+          }
+          
         </div>
       </div>
     </div>

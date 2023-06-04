@@ -1,0 +1,41 @@
+$bg-color: #d4f4f4;
+$dark-color: #1d2d2d;
+$accent-color: #e29b04;
+
+.login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-color;
+
+    .login-container {
+        width: 500px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .titulo-login {
+        background-color: #fff;
+        color: $dark-color;
+    }
+
+    .form {
+        background-color: #fff;
+    }
+
+    .input {
+        background-color: #fff;
+    }
+
+    .btn {
+        margin-top: 2%;
+        margin-right: 2%;
+    }
+
+    .link {
+        background-color: #fff;
+    }
+}
