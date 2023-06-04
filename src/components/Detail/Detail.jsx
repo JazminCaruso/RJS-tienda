@@ -51,7 +51,7 @@ function Detail({ item }) {
   return (
     <div className="seleccion">
       <div className="date-selector">
-        <span className="bold-word">Seleccionar fecha:</span>
+        <span className="bold-word">Selecciona la fecha de inicio del curso:</span>
         <div className="date-buttons">
           {item.fechas.map((fecha) => (
             <button
@@ -69,7 +69,7 @@ function Detail({ item }) {
       </div>
       {selectedDate && (
         <div className="time-selector">
-          <span className="bold-word">Seleccionar horario:</span>
+          <span className="bold-word">Selecciona el horario de inicio de la clase:</span>
           <div className="time-buttons">
             {item.fechas
               .find((fecha) => fecha.fecha === selectedDate)

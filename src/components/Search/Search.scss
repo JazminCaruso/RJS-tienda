@@ -1,6 +1,5 @@
 
 .form-control {
-    max-width: 450px;
     border: none;
     line-height: 1.8;
 }
@@ -32,4 +31,16 @@
     margin-left: 30%;
     margin-right: 30%;
     margin-bottom: 4%;
+
+    @media screen and (max-width: 992px) {
+        // Estilos para pantallas de hasta 768px de ancho
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+    
+      @media screen and (max-width: 480px) {
+        // Estilos para pantallas de hasta 480px de ancho
+        margin-left: 2%;
+        margin-right: 2%;
+      }
 }

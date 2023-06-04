@@ -31,13 +31,20 @@ $accent-color: #e29b04;
 
     img {
       width: 20%;
-      height: 20%;
       flex-shrink: 0;
       max-height: auto;
       margin-bottom: 20px;
       background-color: $bgCardr-color;
       border: 2px solid #1d2d2d;
       margin: 2%;
+
+      @media screen and (max-width: 768px) {
+        // Estilos para pantallas de hasta 480px de ancho
+        width: 25%;
+        margin: 1%;
+        margin-bottom: 2%;
+      }
+      
     }
 
     .detalles {
