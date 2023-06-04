@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useParams, useSearchParams } from 'react-router-dom'
 import ItemList from '../ItemList/ItemList'
-import Spinner from '../spinner/Spinner'
+import Spinner from '../Spinner/Spinner'
 import './ItemListContainer.scss'
 import { collection, getDocs, query, where } from 'firebase/firestore'
 import { db } from '../../firebase/config'

@@ -9,7 +9,7 @@ const Error404 = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setTimer((state) => state - 1);
-    }, 1000);
+    }, 2000);
 
     return () => {
       clearInterval(interval);
