@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import ItemDetail from "../ItemDetail/ItemDetail"
-import Spinner from "../spinner/Spinner"
+import Spinner from "../Spinner/Spinner"
 import Error404 from "../../helpers/error"
 import { doc, getDoc } from "firebase/firestore"
 import { db } from '../../firebase/config'
