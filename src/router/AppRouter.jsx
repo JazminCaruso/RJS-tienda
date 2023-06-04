@@ -10,6 +10,7 @@ import ItemDetailContainer from "../components/ItemDetailContainer/ItemDetailCon
 import { useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
 import Checkout from "../components/Checkout/Checkout";
+import Informacion from "../components/Informacion/Informacion";
 
 const AppRouter = () => {
     const { user } = useContext(AuthContext)
@@ -24,6 +25,7 @@ const AppRouter = () => {
                 <Route path='/' element= { <ItemListContainerPrincipal/> } />
                 <Route path='/categories/:categoryId' element= { <ItemListContainer/> } />
                 <Route path='/item/:id' element={ <ItemDetailContainer />} />
+                <Route path='/informacion' element={ <Informacion />} />
                 <Route path='/cart' element={ <Cart />} />
                 <Route path='/checkout' element={ <Checkout />} />
                 <Route path='*' element={ <Navigate to={"/"} /> }/>
@@ -35,6 +37,7 @@ const AppRouter = () => {
                 <Route path='/' element= { <ItemListContainerPrincipal/> } />
                 <Route path='/categories/:categoryId' element= { <ItemListContainer/> } />
                 <Route path='/item/:id' element={ <ItemDetailContainer />} />
+                <Route path='/informacion' element={ <Informacion />} />
                 <Route path='/login' element= { <Login />} />
                 <Route path='/register' element= { <Register />} />
                 <Route path='/cart' element={ <Cart />} />

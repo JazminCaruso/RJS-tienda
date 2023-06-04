@@ -6,6 +6,7 @@ import './ItemListContainer.scss'
 import { collection, getDocs, query, where } from 'firebase/firestore'
 import { db } from '../../firebase/config'
 import Error404 from '../../helpers/error'
+import { Link } from 'react-router-dom'
 
 const normalizeString = (str) => {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -49,13 +50,21 @@ export const ItemListContainer = () => {
         )
     : productos;
 
-    if (!loading && categoryId && list.length === 0) {
+    const mensajeNoResultados = 'Lo sentimos, todavía no contamos con ese curso.';
+
+    if (!loading && categoryId && productos.length === 0) {
+        return ( <Error404/> );
+      }
+    
+      if (!loading && search && list.length === 0) {
         return (
-            <div className="container my-5">
-              {( <Error404/> )}
-            </div>
-          );
-    }
+          <div className='search-failed'>
+            <h4>{mensajeNoResultados}</h4>
+            <Link to="/" className="btn">Ver cursos</Link>
+          </div>
+        );
+      }
+    
 
     return (
         <div className="container my-5">
@@ -63,7 +72,10 @@ export const ItemListContainer = () => {
         loading 
         ? ( <Spinner /> ) 
         : list.length > 0 ? ( <ItemList items={list} /> ) 
-        : ( <Error404/> )
+        :  ( <div className='search-failed'>
+                <h4>{mensajeNoResultados}</h4> 
+                <Link to="/" className="btn">Ver cursos</Link>
+            </div> )
         }
         </div>
     );

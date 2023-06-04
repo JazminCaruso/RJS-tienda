@@ -30,7 +30,7 @@ function CollapsibleExample() {
                     <Link to='/categories/idiomas' className="navbar__link"><NavDropdown.Item href="#idiomas">Idiomas</NavDropdown.Item></Link>
                     <Link to='/categories/herramientas' className="navbar__link"><NavDropdown.Item href="#herramientas">Herramientas</NavDropdown.Item></Link>
                     </NavDropdown>
-                    <Nav.Link className="itemNavbar" href="#informacion">Información</Nav.Link>
+                    <Link to='/informacion' className="navbar__link"><Nav.Link href="#informacion">Información</Nav.Link></Link>
             </Nav>
             {
                 user.logged 
