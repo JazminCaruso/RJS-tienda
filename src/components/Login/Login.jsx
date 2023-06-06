@@ -1,11 +1,11 @@
-import { useContext } from "react"
+import { useContext, useState } from "react"
 import "./Login.scss"
 import { Link } from "react-router-dom"
 import { AuthContext } from "../../context/AuthContext"
 import { Formik, Form, Field} from 'formik'
 
 const Login = () => {
-    const { login } = useContext(AuthContext)
+    const { login } = useContext(AuthContext);
 
     const handleSubmit = async (values) => {
         login(values)

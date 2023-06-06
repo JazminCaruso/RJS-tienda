@@ -14,13 +14,17 @@ const schema = Yup.object().shape({
     nombre: Yup.string()
                 .required("Este campo es obligatorio")
                 .min(2, "El nombre es demasiado corto")
-                .max(15, "El nombre es demasiado largo"),
+                .max(15, "El nombre es demasiado largo")
+                .matches(/^[A-Za-z\s]+$/, 'El nombre solo puede contener letras y espacios'),
     apellido: Yup.string()
                 .required("Este campo es obligatorio")
-                .min(3, "El apellido es demasiado corto"),
+                .min(3, "El apellido es demasiado corto")
+                .matches(/^[A-Za-z\s]+$/, 'El apellido solo puede contener letras y espacios'),
+    dni: Yup.string()
+            .required("Este campo es obligatorio")
+            .matches(/^[0-9]{7,8}$/, 'Ingrese un DNI válido'),
     telefono: Yup.string()
-                .min(9, "El número de teléfono es demasiado corto")
-                .max(16, "El número de teléfono es demasiado largo"),
+                .matches(/^[0-9]{8,15}$/, 'Ingrese un número de teléfono válido'),
 })
 
 const Checkout = () => {
@@ -92,6 +96,7 @@ const Checkout = () => {
                 initialValues={{
                     nombre: '',
                     apellido: '',
+                    dni: '',
                     telefono: '',
                     email: user.email
                 }}
@@ -102,11 +107,13 @@ const Checkout = () => {
 
                     <Form>
                         <Field name="nombre" type="text" placeholder="Nombre" className="form-control my-2"/>
-                        <ErrorMessage name="nombre" component={"p"}/>
+                        <ErrorMessage name="nombre" component="p" className="error-message-checkout" />
                         <Field name="apellido" type="text" placeholder="Apellido" className="form-control my-2"/>
-                        <ErrorMessage name="apellido" component={"p"}/>
+                        <ErrorMessage name="apellido" component="p" className="error-message-checkout" />
+                        <Field name="dni" type="text" placeholder="DNI" className="form-control my-2"/>
+                        <ErrorMessage name="dni" component="p" className="error-message-checkout" />
                         <Field name="telefono" type="text" placeholder="Telefono" className="form-control my-2"/>
-                        <ErrorMessage name="telefono" component={"p"}/>
+                        <ErrorMessage name="telefono" component="p" className="error-message-checkout" />
                         <Field name="email" type="email" placeholder="Email" className="form-control my-2" readOnly/>
                         <button className="btn" type="submit">Enviar</button>
                     </Form>
