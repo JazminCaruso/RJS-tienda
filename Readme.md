@@ -1,10 +1,12 @@
 # e-ducacion
 
-Bienvenido a e-ducacion, una plataforma de venta de cursos online. Nuestro objetivo es brindarte acceso a una amplia variedad de cursos de alta calidad, impartidos por expertos en sus campos.
+[E_ducacion](https://jazmincaruso.github.io/RJS-tienda/)
+
+Este proyecto es parte del curso de React y representa una plataforma ficticia para la venta de cursos en línea. La tienda de cursos en línea está diseñada y desarrollada utilizando React y otras tecnologías web modernas.
 
 ## Descripción del proyecto
 
-Este proyecto es una aplicación web que te permite explorar y adquirir cursos en línea. Ofrecemos una amplia gama de cursos en diferentes áreas temáticas, como desarrollo web, diseño gráfico, marketing digital y más. Nuestro enfoque se centra en proporcionar contenido educativo actualizado y relevante para impulsar tu crecimiento personal y profesional.
+Es una aplicación web que te permite explorar y adquirir cursos en línea. Ofrecemos una amplia gama de cursos en diferentes áreas temáticas, como desarrollo web, diseño gráfico, marketing digital y más. Nuestro enfoque se centra en proporcionar contenido educativo actualizado y relevante para impulsar tu crecimiento personal y profesional.
 
 ## Características principales
 
@@ -36,19 +38,3 @@ Este proyecto es una aplicación web que te permite explorar y adquirir cursos e
 
 1. Inicia el servidor de desarrollo: `npm run dev`
 2. Abre tu navegador y accede a: `http://localhost:5173`
-
-## Contribución
-
-Si deseas contribuir a este proyecto, sigue los siguientes pasos:
-
-1. Realiza un fork del repositorio.
-2. Crea una rama con una descripción clara de la funcionalidad que implementarás: `git checkout -b nombre-de-la-rama`
-3. Realiza los cambios y realiza commit de tus modificaciones: `git commit -m "Descripción de los cambios"`
-4. Realiza un push a tu repositorio: `git push origin nombre-de-la-rama`
-5. Crea una Pull Request en el repositorio original.
-
----
-
-Para más información y contacto, visita nuestro sitio web: [e-ducacion.netlify.app](https://e-ducacion.netlify.app). 
-
-¡Esperamos que disfrutes de nuestros cursos!
